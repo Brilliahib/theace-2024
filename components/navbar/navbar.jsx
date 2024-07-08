@@ -3,46 +3,47 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import logo from "/public/images/logo.png";
+import { Button } from "../ui/button";
 
 function Navbar() {
   return (
-    <nav className="bg-[#0E1333] py-4 px-16">
-      <div className=" flex flex-row items-center justify-between px-4 rounded-xl border-8 border-t-4 border-[#FFA62D]">
+    <nav className="bg-[#0E1333] py-4 px-16 sticky top-0 md:block hidden">
+      <div className=" flex flex-row items-center justify-between px-4 rounded-xl border-4 border-primary">
         <div className="flex flex-row items-center">
           {/* masupin gambar the ace */}
-          <Image src={logo} alt="Logo" width={100} height={100} />
+          <Image src={logo} alt="Logo" width={80} height={80} />
           {/* title event */}
-          <p className="text-white text-xl font-semibold">THE ACE</p>
+          <p className="text-white text-xl font-semibold">The ACE</p>
         </div>
-        <ul className="flex flex-row items-center gap-10">
+        <ul className="flex flex-row items-center gap-10 text-base">
           <li>
             <Link
               href="/"
-              className="text-[#DCE2F1] hover:text-[#FFA62D] hover:underline"
+              className="text-[#DCE2F1] hover:text-primary hover:underline"
             >
               Home
             </Link>
           </li>
           <li>
             <Link
-              href="/Lomba"
-              className="text-[#DCE2F1] hover:text-[#FFA62D] hover:underline"
+              href="/lomba"
+              className="text-[#DCE2F1] hover:text-primary hover:underline"
             >
               Lomba
             </Link>
           </li>
           <li>
             <Link
-              href="/Seminar"
-              className="text-[#DCE2F1] hover:text-[#FFA62D] hover:underline"
+              href="/seminar"
+              className="text-[#DCE2F1] hover:text-primary hover:underline"
             >
               Seminar
             </Link>
           </li>
-          <button className="flex flex-row gap-2 bg-[#FFA62D] p-2 rounded-md font-semibold text-black">
+          <Button className="flex flex-row gap-2 rounded-md font-bold text-black">
             <Phone size={20} fill="#000000" stroke="#000000" />
             Contact
-          </button>
+          </Button>
         </ul>
       </div>
     </nav>
