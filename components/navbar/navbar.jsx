@@ -7,13 +7,11 @@ import { Button } from "../ui/button";
 
 function Navbar() {
   return (
-    <nav className="p-4 px-16 sticky top-0 md:block hidden">
-      <div className="bg-[#0E1333] flex flex-row items-center justify-between px-4 rounded-xl border-4 border-primary">
+    <nav className="p-4 px-16 fixed top-0 left-0 right-0 z-10 md:block hidden">
+      <div className="bg-transparent flex flex-row items-center justify-between px-4 py-2 rounded-xl border-4 border-primary backdrop-filter backdrop-blur-lg">
         <div className="flex flex-row items-center">
-          {/* masupin gambar the ace */}
           <Image src={logo} alt="Logo" width={80} height={80} />
-          {/* title event */}
-          <p className="text-white text-xl font-semibold">The ACE</p>
+          <p className="text-white text-xl font-semibold ml-2">The ACE</p>
         </div>
         <ul className="flex flex-row items-center gap-10 text-base">
           <li>

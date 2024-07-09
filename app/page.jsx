@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import bg from '/public/images/bg-particle.png';
 
 export default function Home() {
   return (
     <>
-      <div className="bg-[#0E1333] h-screen flex flex-col space-y-8 justify-center items-center">
-        <div className="text-white text-6xl text-center font-semibold -mt-36 font-orbitron">
+      <div className="h-screen flex flex-col space-y-8 justify-center items-center bg-cover bg-center" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="text-white text-2xl md:text-6xl text-center font-semibold font-orbitron">
           <p>
             Break the <a className="text-primary">algorithm</a>,
           </p>
