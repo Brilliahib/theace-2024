@@ -8,7 +8,7 @@ import { Button } from "../ui/button";
 function Navbar() {
   return (
     <nav className="pad-x py-8 fixed top-0 left-0 right-0 z-10 md:block hidden">
-      <div className="bg-transparent flex flex-row items-center justify-between px-4 py-2 rounded-xl border-4 border-primary backdrop-filter backdrop-blur-lg">
+      <div className="bg-transparent flex flex-row items-center justify-between px-4 py-2 rounded-xl border-t-2 border-8 border-primary backdrop-filter backdrop-blur-lg">
         <div className="flex flex-row items-center">
           <Image src={logo} alt="Logo" width={80} height={80} />
           <p className="text-white text-xl font-semibold ml-2">The ACE</p>

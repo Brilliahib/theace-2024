@@ -1,13 +1,15 @@
-import { Inter } from "next/font/google";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Orbitron } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import NavMobile from "@/components/navbar/nav-mobile";
 import NavTop from "@/components/navbar/nav-top";
 import Footer from "@/components/footer/footer";
+import { FAQ } from "@/components/faq/faq";
+import bg from "/public/images/bg-particle.png";
 
-const inter = Inter({ subsets: ["latin"] });
-const jakartaSans = Plus_Jakarta_Sans({ subsets: ["latin"] });
+const orbitron = Orbitron({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "The Ace 2024",
@@ -17,12 +19,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${jakartaSans.className} bg-[#0E1333]`}>
-        {/* Adding navbar from  "./navbar/navbar"*/}
+      <body
+        className={`${montserrat.className} bg-[#0E1333] bg-repeat bg-center text-white`}
+        style={{ backgroundImage: `url(${bg.src})`, backgroundSize: "auto" }}
+      >
+        {/* Adding navbar from  "./navbar/navbar" */}
         <Navbar />
         <NavTop />
         <NavMobile />
         {children}
+        <FAQ />
         <Footer />
       </body>
     </html>
