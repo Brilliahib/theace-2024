@@ -57,13 +57,12 @@ const Footer = () => {
             <div className="flex justify-center">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7919.2724300868185!2d110.43288020627327!3d-7.051962499999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708c02787187c9%3A0x29bcf60b2c20aec!2sDiponegoro%20University!5e0!3m2!1sen!2sid!4v1720497604853!5m2!1sen!2sid"
-                class="h-64 border-0"
+                class="w-full h-64 border-0"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-
           </div>
         </div>
         <div className="flex flex-col justify-center items-center text-white">

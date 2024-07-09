@@ -1,12 +1,20 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const NavMobile = () => {
+  const pathname = usePathname();
   return (
     <>
-      <nav className="bg-[#182159] w-full md:hidden block fixed bottom-0 pad-x py-4">
+      <nav className="bg-[#182159] w-full md:hidden block fixed bottom-0 pad-x py-2">
         <div className="text-white justify-around items-center flex w-full text-sm">
-          <Link href="/">
-            <div className="flex flex-col justify-center items-center gap-y-1">
+          <Link
+            href="/"
+            className={`${
+              pathname === "/" ? "text-primary" : "text-neutral-400 "
+            }`}
+          >
+            <div className="flex flex-col justify-center items-center gap-y-1 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -24,8 +32,13 @@ const NavMobile = () => {
               Home
             </div>
           </Link>
-          <Link href="/lomba">
-            <div className="flex flex-col justify-center items-center gap-y-1">
+          <Link
+            href="/lomba"
+            className={`${
+              pathname === "/lomba" ? "text-primary" : "text-neutral-400 "
+            }`}
+          >
+            <div className="flex flex-col justify-center items-center gap-y-1 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -43,8 +56,13 @@ const NavMobile = () => {
               Lomba
             </div>
           </Link>
-          <Link href="/seminar">
-            <div className="flex flex-col justify-center items-center gap-y-1">
+          <Link
+            href="/seminar"
+            className={`${
+              pathname === "/seminar" ? "text-primary" : "text-neutral-400 "
+            }`}
+          >
+            <div className="flex flex-col justify-center items-center gap-y-1 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
