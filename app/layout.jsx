@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import NavMobile from "@/components/navbar/nav-mobile";
 import NavTop from "@/components/navbar/nav-top";
+import Footer from "@/components/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const jakartaSans = Plus_Jakarta_Sans({ subsets: ["latin"] });
@@ -16,12 +17,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={jakartaSans.className}>
+      <body className={`${jakartaSans.className} bg-[#0E1333]`}>
         {/* Adding navbar from  "./navbar/navbar"*/}
         <Navbar />
         <NavTop />
         <NavMobile />
         {children}
+        <Footer />
       </body>
     </html>
   );
