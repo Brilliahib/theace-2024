@@ -6,7 +6,7 @@ import { Phone } from "lucide-react";
 const NavTop = () => {
   return (
     <>
-      <div className="w-full bg-transparent pad-x sticky top-0 py-1 md:hidden block backdrop-filter backdrop-blur-lg">
+      <div className="w-full bg-transparent pad-x py-1 md:hidden block backdrop-filter backdrop-blur-lg">
         <div className="flex justify-between items-center">
           <div className="flex flex-row items-center">
             {/* masupin gambar the ace */}

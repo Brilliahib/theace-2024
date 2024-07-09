@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export function FAQ() {
   return (
-    <div className="pad-x text-white py-12">
+    <div className="pad-x text-white py-24">
       <div className="text-center space-y-4 mb-12">
         <h1 className="text-3xl font-bold">FAQ</h1>
         <p>
