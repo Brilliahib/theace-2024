@@ -3,7 +3,7 @@ import Link from "next/link";
 const NavMobile = () => {
   return (
     <>
-      <nav className="bg-[#080f42] w-full md:hidden block fixed bottom-0 pad-x py-4">
+      <nav className="bg-[#182159] w-full md:hidden block fixed bottom-0 pad-x py-4">
         <div className="text-white justify-around items-center flex w-full text-sm">
           <Link href="/">
             <div className="flex flex-col justify-center items-center gap-y-1">
