@@ -4,8 +4,10 @@ import CardListLomba from "@/components/card/card-list-lomba";
 const LombaPage = () => {
   return (
     <>
-      <CardIntroLomba />
-      <CardListLomba></CardListLomba>
+      <div className="mt-16">
+        <CardIntroLomba />
+        <CardListLomba></CardListLomba>
+      </div>
     </>
   );
 };

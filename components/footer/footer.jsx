@@ -8,14 +8,14 @@ const Footer = () => {
       <div className="w-full bg-[#182159] pad-x md:py-12 py-4">
         <div className="md:flex justify-between mb-24 md:space-y-0 space-y-8">
           <div>
-            <div className="flex flex-col justify-start">
+            <div className="flex flex-col justify-start space-y-4">
               <Image
                 src={logo}
                 width={80}
                 height={80}
                 alt="The Ace 2024"
               ></Image>
-              <p className="text-muted-foreground max-w-sm">
+              <p className="text-[#DCE2F1] max-w-xs">
                 Jl. Prof. Soedarto, Tembalang, Kec. Tembalang, Kota Semarang,
                 Jawa Tengah 50275
               </p>
