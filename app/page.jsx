@@ -9,7 +9,7 @@ const orbitron = Orbitron({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div className="md:h-screen min-h-[70vh] flex flex-col space-y-8 justify-center items-center">
+      <div className="md:h-screen min-h-[70vh] flex flex-col space-y-8 justify-center items-center md:mt-24">
         <div
           className={`text-white text-4xl md:text-6xl text-center font-semibold font-orbitron ${orbitron.className}`}
         >
@@ -25,7 +25,6 @@ export default function Home() {
       </div>
       <EventComponent />
       <Documentation />
-
     </>
   );
 }
