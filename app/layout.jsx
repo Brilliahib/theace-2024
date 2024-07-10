@@ -7,6 +7,7 @@ import NavTop from "@/components/navbar/nav-top";
 import Footer from "@/components/footer/footer";
 import { FAQ } from "@/components/faq/faq";
 import bg from "/public/images/bg-particle.png";
+import EventComponent from "@/components/event/event";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
 const montserrat = Montserrat({ subsets: ["latin"] });
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <NavTop />
         <NavMobile />
         {children}
+        <EventComponent />
         <FAQ />
         <Footer />
       </body>

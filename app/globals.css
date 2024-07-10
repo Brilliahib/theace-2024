@@ -84,6 +84,7 @@
   }
 }
 
+/* padding buat componen biar sama semua. */
 @layer components {
   .pad-x {
     @apply px-4 md:px-[6%] lg:px-[8%];

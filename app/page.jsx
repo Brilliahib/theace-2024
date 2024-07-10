@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import bg from "/public/images/bg-particle.png";
 import { Orbitron } from "next/font/google";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
@@ -22,6 +21,7 @@ export default function Home() {
           <ArrowRight color="#000000" />
         </Button>
       </div>
+
     </>
   );
 }
