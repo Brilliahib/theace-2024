@@ -35,7 +35,9 @@ const NavMobile = () => {
           <Link
             href="/lomba"
             className={`${
-              pathname === "/lomba" ? "text-primary" : "text-neutral-400 "
+              pathname.startsWith("/lomba")
+                ? "text-primary"
+                : "text-neutral-400 "
             }`}
           >
             <div className="flex flex-col justify-center items-center gap-y-1 text-sm">

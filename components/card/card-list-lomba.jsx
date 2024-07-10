@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
 
@@ -14,16 +15,18 @@ const CardListLomba = () => {
             <div className="bg-[#0e1333] rounded-xl w-full h-[200px]"></div>
           </CardHeader>
           <CardContent className="space-y-2">
-            <h1 className="text-xl font-semibold">Perlombaan</h1>
+            <h1 className="text-xl font-semibold">UI/UX Design</h1>
             <p className="text-[#DCE2F1]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
               neque dicta unde. Veritatis, at qui!
             </p>
           </CardContent>
           <CardFooter>
-            <Button className="w-full text-md text-[#041062] font-bold">
-              See Details
-            </Button>
+            <Link href="/lomba/ui-ux" className="w-full">
+              <Button className="w-full text-md text-[#041062] font-bold">
+                See Details
+              </Button>
+            </Link>
           </CardFooter>
         </Card>
         <Card className="bg-[#182159] text-white">
@@ -31,16 +34,18 @@ const CardListLomba = () => {
             <div className="bg-[#0e1333] rounded-xl w-full h-[200px]"></div>
           </CardHeader>
           <CardContent className="space-y-2">
-            <h1 className="text-xl font-semibold">Perlombaan</h1>
+            <h1 className="text-xl font-semibold">Capture The Flag</h1>
             <p className="text-[#DCE2F1]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
               neque dicta unde. Veritatis, at qui!
             </p>
           </CardContent>
           <CardFooter>
-            <Button className="w-full text-md text-[#041062] font-bold">
-              See Details
-            </Button>
+            <Link href="/lomba/capture-the-flag" className="w-full">
+              <Button className="w-full text-md text-[#041062] font-bold">
+                See Details
+              </Button>
+            </Link>
           </CardFooter>
         </Card>
         <Card className="bg-[#182159] text-white">
@@ -48,16 +53,18 @@ const CardListLomba = () => {
             <div className="bg-[#0e1333] rounded-xl w-full h-[200px]"></div>
           </CardHeader>
           <CardContent className="space-y-2">
-            <h1 className="text-xl font-semibold">Perlombaan</h1>
+            <h1 className="text-xl font-semibold">Essay</h1>
             <p className="text-[#DCE2F1]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
               neque dicta unde. Veritatis, at qui!
             </p>
           </CardContent>
           <CardFooter>
-            <Button className="w-full text-md text-[#041062] font-bold">
-              See Details
-            </Button>
+            <Link href="/lomba/essay" className="w-full">
+              <Button className="w-full text-md text-[#041062] font-bold">
+                See Details
+              </Button>
+            </Link>
           </CardFooter>
         </Card>
       </div>
