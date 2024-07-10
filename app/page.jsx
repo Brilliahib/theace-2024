@@ -1,3 +1,5 @@
+import Documentation from "@/components/documentation/documentation";
+import EventComponent from "@/components/event/event";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Orbitron } from "next/font/google";
@@ -21,6 +23,8 @@ export default function Home() {
           <ArrowRight color="#000000" />
         </Button>
       </div>
+      <EventComponent />
+      <Documentation />
 
     </>
   );
