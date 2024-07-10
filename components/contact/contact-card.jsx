@@ -3,7 +3,7 @@ import { Card } from '../ui/card';
 
 export default function ContactCard({ role, name, phone }) {
   return (
-    <Card className="bg-[#182159] text-white w-full sm:w-80 shadow-lg border-[#FFA62D] p-4 relative">
+    <Card className="bg-[#182159] text-white w-full sm:w-80 shadow-lg border-[#FFA62D] p-4 relative cursor-pointer">
       <div className="flex items-center">
         <div className="bg-gray-400 w-16 h-16 rounded-full"></div>
         <div className="ml-4">
