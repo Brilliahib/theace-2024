@@ -8,7 +8,7 @@ const EventComponent = () => {
     return (
         <div className="pad-x py-8">
             <div className=" rounded-xl border-t-2 border-8 border-primary flex lg:flex-row flex-col px-4 items-center bg-[#182159]">
-                <div className="lg:w-1/2">
+                <div className="md:w-1/2">
                     <Image src={logo} alt="Logo" />
                 </div>
                 <div className="text-justify">
