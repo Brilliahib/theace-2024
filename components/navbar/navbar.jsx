@@ -38,12 +38,12 @@ function Navbar() {
               Seminar
             </Link>
           </li>
-          <a href="/contact">
+          <Link href="/contact">
           <Button className="flex flex-row gap-2 rounded-md font-bold text-black">
             <Phone size={20} fill="#000000" stroke="#000000" />
             Contact
           </Button>
-          </a>
+          </Link>
         </ul>
       </div>
     </nav>
