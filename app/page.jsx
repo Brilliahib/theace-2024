@@ -1,6 +1,7 @@
+import Documentation from "@/components/documentation/documentation";
+import EventComponent from "@/components/event/event";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import bg from "/public/images/bg-particle.png";
 import { Orbitron } from "next/font/google";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
@@ -22,6 +23,9 @@ export default function Home() {
           <ArrowRight color="#000000" />
         </Button>
       </div>
+      <EventComponent />
+      <Documentation />
+
     </>
   );
 }
