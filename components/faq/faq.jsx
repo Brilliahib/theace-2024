@@ -13,7 +13,7 @@ export function FAQ() {
         <h1 className="text-3xl font-bold">FAQ</h1>
         <p>
           Jika ada pertanyaan lain bisa{" "}
-          <Link href="/contact" className="text-primary underline">
+          <Link href="/contact" className="text-primary hover:underline">
             hubungi kami
           </Link>
         </p>
