@@ -7,9 +7,9 @@ import logo from "/public/images/logo.png";
 const EventComponent = () => {
     return (
         <div className="pad-x py-8">
-            <div className=" rounded-xl border-t-2 border-8 border-primary flex lg:flex-row flex-col px-4 items-center gap-4 bg-[#182159]">
-                <div className="w-1/2">
-                    <Image className='w-full' src={logo} alt="Logo" />
+            <div className=" rounded-xl border-t-2 border-8 border-primary flex lg:flex-row flex-col px-4 items-center bg-[#182159]">
+                <div className="lg:w-1/2">
+                    <Image src={logo} alt="Logo" />
                 </div>
                 <div className="text-justify">
                     <h1 className="font-bold text-xl lg:text-start text-center">The ACE</h1>
