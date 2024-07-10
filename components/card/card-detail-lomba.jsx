@@ -26,7 +26,7 @@ const CardDetailLomba = () => {
   }
   return (
     <>
-      <Card className="bg-[#182159] md:p-6 p-4 text-white w-full border-t-4 border-b-8 border-r-8 border-l-8">
+      <Card className="bg-[#182159] md:p-6 p-0 text-white w-full border-t-4 border-b-8 border-r-8 border-l-8">
         <CardHeader>
           <span className="text-muted-foreground">Bidang Lomba</span>
         </CardHeader>

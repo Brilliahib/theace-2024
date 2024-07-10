@@ -9,7 +9,7 @@ const LombaDetail = () => {
       </div>
       <div className="pad-x md:flex gap-x-8 md:space-y-0 space-y-8">
         <div className="md:w-8/12">
-          <Card className="bg-[#182159] p-4 text-white w-full border-t-4 border-b-8 border-r-8 border-l-8 h-full">
+          <Card className="bg-[#182159] md:p-4 p-0 py-4 text-white w-full border-t-4 border-b-8 border-r-8 border-l-8 h-full">
             <CardContent>
               <div className="space-y-8">
                 <div className="space-y-2">
@@ -47,7 +47,7 @@ const LombaDetail = () => {
           </Card>
         </div>
         <div className="md:w-4/12">
-          <Card className="bg-[#182159] p-4 text-white w-full border-t-4 border-b-8 border-r-8 border-l-8">
+          <Card className="bg-[#182159] md:p-4 p-0 py-4 text-white w-full border-t-4 border-b-8 border-r-8 border-l-8">
             <CardContent>
               <div className="space-y-8">
                 <div>
