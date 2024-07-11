@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className="md:h-screen min-h-[70vh] flex flex-col space-y-8 justify-center items-center md:mt-24">
         <div
-          className={`text-white text-4xl md:text-6xl text-center font-semibold font-orbitron ${orbitron.className}`}
+          className={`text-white text-4xl md:text-6xl text-center font-semibold ${orbitron.className}`}
         >
           <p>
             Break the <span className="text-primary">algorithm</span>,

@@ -2,6 +2,7 @@ import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react'
 import { Button } from '../ui/button';
+import EventCardMain from './event-card-main';
 import logo from "/public/images/logo.png";
 
 const EventComponent = () => {
@@ -19,10 +20,16 @@ const EventComponent = () => {
                             Get Started
                             <ArrowRight color="#000000" />
                         </Button>
-                        <Button className="bg-[#182159] text-[#FFAA33] hover:text-black font-bold outline outline-2 outline-[#FFAA33]">Contact</Button>
+                        <Button
+                            variant="outline"
+                            className="text-primary font-bold text-md flex gap-x-2 hover:bg-primary hover:text-black"
+                        >
+                            Contact
+                        </Button>
                     </div>
                 </div>
             </div>
+            <EventCardMain />
         </div>
     )
 }

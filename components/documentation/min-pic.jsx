@@ -12,18 +12,20 @@ const MiniPicture = () => {
     "/images/8.jpg",
     "/images/9.jpg",
   ];
+
   return (
     <div className="pad-x my-12">
       <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-12 gap-8">
         {images.map((image, index) => (
           <div
             key={index}
-            className=" outline outline-4 rounded outline-primary "
+            className="relative w-full mx-auto h-auto overflow-hidden outline outline-4 rounded outline-primary"
           >
             <img
               src={image}
               alt={`Image ${index + 1}`}
-              className="rounded w-full h-[250px] object-cover"
+              className={`w-full h-64 object-cover relative z-0 rounded-lg transition-all duration-300 ${index % 2 === 0 ? 'hover:scale-110' : 'scale-110 hover:scale-100'
+                }`}
             />
           </div>
         ))}
