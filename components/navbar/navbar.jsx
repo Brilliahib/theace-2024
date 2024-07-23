@@ -11,7 +11,7 @@ function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-[#241246] pad-x fixed top-0 left-0 right-0 z-10 md:inline hidden">
+    <nav className="bg-[#241246] pad-x py-3 fixed top-0 left-0 right-0 z-10 md:inline hidden">
       <div className="flex flex-row items-center justify-between">
         <div className="flex flex-row items-center">
           <Image src={logo} alt="Logo" width={80} height={80} />
@@ -44,14 +44,14 @@ function Navbar() {
           </li>
           <li>
             <Link
-              href="/seminar"
+              href="/about"
               className={`${
-                pathname === "/seminar"
+                pathname === "/about"
                   ? "text-primary underline"
                   : "text-[#DCE2F1] hover:text-primary hover:underline"
               }`}
             >
-              Seminar
+              About
             </Link>
           </li>
         </ul>
