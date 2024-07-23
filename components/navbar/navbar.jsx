@@ -6,6 +6,7 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import logo from "/public/images/logo.png";
 import { Button } from "../ui/button";
+import { NavigationMenuDemo } from "./nav-menu";
 
 function Navbar() {
   const pathname = usePathname();
@@ -17,44 +18,7 @@ function Navbar() {
           <Image src={logo} alt="Logo" width={80} height={80} />
           <p className="text-white text-xl font-semibold ml-2">The ACE</p>
         </div>
-        <ul className="flex flex-row items-center gap-10 text-base font-semibold">
-          <li>
-            <Link
-              href="/"
-              className={`${
-                pathname === "/"
-                  ? "text-primary underline"
-                  : "text-[#DCE2F1] hover:text-primary hover:underline"
-              }`}
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/lomba"
-              className={`${
-                pathname.startsWith("/lomba")
-                  ? "text-primary underline"
-                  : "text-[#DCE2F1] hover:text-primary hover:underline"
-              }`}
-            >
-              Lomba
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/about"
-              className={`${
-                pathname === "/about"
-                  ? "text-primary underline"
-                  : "text-[#DCE2F1] hover:text-primary hover:underline"
-              }`}
-            >
-              About
-            </Link>
-          </li>
-        </ul>
+        <NavigationMenuDemo />
         <div>
           <Link href="/contact">
             <Button
