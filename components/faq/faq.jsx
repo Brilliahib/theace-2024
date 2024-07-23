@@ -20,10 +20,10 @@ export function FAQ() {
       </div>
       <Accordion type="single" collapsible className="w-full space-y-4">
         <AccordionItem value="item-1" className="border-0">
-          <AccordionTrigger className="border-2 border-primary p-4 rounded-md bg-[#182159] text-primary font-bold">
+          <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
             Pertanyaan Seputar The Ace
           </AccordionTrigger>
-          <AccordionContent className="border-2 border-primary p-4 rounded-md bg-[#182159] mt-4">
+          <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
             <div className="space-y-4">
               <div className="border-b-2">
                 <p className="mb-4">
@@ -35,10 +35,10 @@ export function FAQ() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2" className="border-0">
-          <AccordionTrigger className="border-2 border-primary p-4 rounded-md bg-[#182159]  text-primary font-bold">
+          <AccordionTrigger className="p-4 rounded-md bg-secondary  text-white font-bold">
             Pertanyaan Seputar Lomba
           </AccordionTrigger>
-          <AccordionContent className="border-2 border-primary p-4 rounded-md bg-[#182159] mt-4">
+          <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
             <div className="space-y-4">
               <div className="border-b-2">
                 <p className="mb-4">
@@ -50,10 +50,10 @@ export function FAQ() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3" className="border-0">
-          <AccordionTrigger className="border-2 border-primary p-4 rounded-md bg-[#182159]  text-primary font-bold">
+          <AccordionTrigger className="p-4 rounded-md bg-secondary  text-white font-bold">
             Pertanyaan Seputar Seminar
           </AccordionTrigger>
-          <AccordionContent className="border-2 border-primary p-4 rounded-md bg-[#182159] mt-4">
+          <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
             <div className="space-y-4">
               <div className="border-b-2">
                 <p className="mb-4">

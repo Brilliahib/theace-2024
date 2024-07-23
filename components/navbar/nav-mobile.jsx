@@ -6,7 +6,7 @@ const NavMobile = () => {
   const pathname = usePathname();
   return (
     <>
-      <nav className="bg-[#182159] w-full md:hidden block fixed bottom-0 pad-x py-2 z-50">
+      <nav className="bg-secondary w-full md:hidden block fixed bottom-0 pad-x py-2 z-50">
         <div className="text-white justify-around items-center flex w-full text-sm">
           <Link
             href="/"

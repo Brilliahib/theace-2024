@@ -11,8 +11,8 @@ function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="pad-x py-8 fixed top-0 left-0 right-0 z-10 md:block hidden">
-      <div className="bg-transparent flex flex-row items-center justify-between px-4 rounded-xl border-t-2 border-8 border-primary backdrop-filter backdrop-blur-lg">
+    <nav className="bg-[#241246] pad-x fixed top-0 left-0 right-0 z-10 md:inline hidden">
+      <div className="flex flex-row items-center justify-between">
         <div className="flex flex-row items-center">
           <Image src={logo} alt="Logo" width={80} height={80} />
           <p className="text-white text-xl font-semibold ml-2">The ACE</p>
@@ -54,17 +54,18 @@ function Navbar() {
               Seminar
             </Link>
           </li>
+        </ul>
+        <div>
           <Link href="/contact">
             <Button
-              className={`flex flex-row gap-2 rounded-md font-bold ${
-                pathname === "/contact" ? "text-primary" : "text-black"
-              }`}
+              className="flex flex-row gap-2 rounded-md font-bold text-primary"
+              variant="outline"
             >
-              <Phone size={20} fill="#000000" stroke="#000000" />
+              <Phone size={20} className="text-primary" />
               Contact
             </Button>
           </Link>
-        </ul>
+        </div>
       </div>
     </nav>
   );

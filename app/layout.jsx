@@ -19,10 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${montserrat.className} bg-[#0E1333] bg-repeat bg-center text-white`}
-        style={{ backgroundImage: `url(${bg.src})`, backgroundSize: "auto" }}
-      >
+      <body className={`${montserrat.className} bg-[#241246] text-white`}>
         {/* Adding navbar from  "./navbar/navbar" */}
         <Navbar />
         <NavTop />
