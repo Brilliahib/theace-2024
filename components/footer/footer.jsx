@@ -5,7 +5,7 @@ import logo from "/public/images/logo.png";
 const Footer = () => {
   return (
     <>
-      <div className="w-full bg-[#182159] pad-x md:py-12 py-4">
+      <div className="w-full bg-secondary pad-x md:py-12 py-4">
         <div className="md:flex justify-between mb-24 md:space-y-0 space-y-8">
           <div>
             <div className="flex flex-col justify-start space-y-4">
