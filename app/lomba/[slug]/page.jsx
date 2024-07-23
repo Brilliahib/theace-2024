@@ -30,7 +30,7 @@ const LombaDetail = () => {
             {lomba.title}
           </h1>
           <p className="md:text-lg text-sm font-bold text-primary">
-            "{lomba.theme}"
+            &quot;{lomba.theme}&quot;
           </p>
         </div>
       </div>
