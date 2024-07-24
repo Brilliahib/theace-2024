@@ -34,7 +34,7 @@ export default function Home() {
       >
         <div className="md:space-y-8 space-y-6 md:mt-0 mt-10">
           <div
-            className={`text-white md:leading-loose leading-relaxed text-3xl md:text-4xl md:space-y-4 text-left font-semibold font-boomBox2`}
+            className={`text-white leading-relaxed text-3xl md:text-4xl md:space-y-4 text-left font-semibold font-boomBox2`}
           >
             <p>
               Break the <span className="text-[#FF29BB]">algorithm</span>,
