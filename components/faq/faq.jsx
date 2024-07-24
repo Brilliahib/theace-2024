@@ -20,47 +20,38 @@ export function FAQ() {
       </div>
       <Accordion type="single" collapsible className="w-full space-y-4">
         <AccordionItem value="item-1" className="border-0">
-          <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
+          <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-semibold md:text-base text-sm">
             Pertanyaan Seputar The Ace
           </AccordionTrigger>
           <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
             <div className="space-y-4">
-              <div className="border-b-2">
-                <p className="mb-4">
-                  Yes. It adheres to the WAI-ARIA design pattern.
-                </p>
+              <div>
+                <p>Yes. It adheres to the WAI-ARIA design pattern.</p>
               </div>
-              <div>Yes. It adheres to the WAI-ARIA design pattern.</div>
             </div>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2" className="border-0">
-          <AccordionTrigger className="p-4 rounded-md bg-secondary  text-white font-bold">
+          <AccordionTrigger className="p-4 rounded-md bg-secondary  text-white font-semibold md:text-base text-sm">
             Pertanyaan Seputar Lomba
           </AccordionTrigger>
           <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
             <div className="space-y-4">
-              <div className="border-b-2">
-                <p className="mb-4">
-                  Yes. It adheres to the WAI-ARIA design pattern.
-                </p>
+              <div>
+                <p>Yes. It adheres to the WAI-ARIA design pattern.</p>
               </div>
-              <div>Yes. It adheres to the WAI-ARIA design pattern.</div>
             </div>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3" className="border-0">
-          <AccordionTrigger className="p-4 rounded-md bg-secondary  text-white font-bold">
+          <AccordionTrigger className="p-4 rounded-md bg-secondary  text-white font-semibold md:text-base text-sm">
             Pertanyaan Seputar Seminar
           </AccordionTrigger>
           <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
             <div className="space-y-4">
-              <div className="border-b-2">
-                <p className="mb-4">
-                  Yes. It adheres to the WAI-ARIA design pattern.
-                </p>
+              <div>
+                <p>Yes. It adheres to the WAI-ARIA design pattern.</p>
               </div>
-              <div>Yes. It adheres to the WAI-ARIA design pattern.</div>
             </div>
           </AccordionContent>
         </AccordionItem>
