@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/accordion";
 import { formatDateToWIB } from "@/lib/formatDate/format-date";
 import Countdown from "@/components/countdown/countdown";
+import { Button } from "@/components/ui/button";
 
 const LombaDetail = () => {
   const params = useParams();
@@ -115,6 +116,17 @@ const LombaDetail = () => {
                       <p className="font-semibold">
                         {formatDateToWIB(lomba.targetDate)}
                       </p>
+                    </div>
+                    <div className="space-y-4 flex flex-col justify-center">
+                      <Button className="w-full font-bold text-base">
+                        Daftar Sekarang
+                      </Button>
+                      <Button
+                        className="w-full font-bold text-base bg-secondary text-primary hover:bg-primary hover:text-secondary"
+                        variant="outline"
+                      >
+                        Guidebook
+                      </Button>
                     </div>
                   </div>
                 </AccordionContent>

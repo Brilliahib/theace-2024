@@ -3,6 +3,9 @@ import logo from "/public/images/logo.png";
 import Marquee from "@/components/marquee/marquee-photo";
 import Tiktok from "@/public/icons/tiktok.svg";
 import Instagram from "@/public/icons/instagram.svg";
+import Location from "@/public/icons/location.svg";
+import Clock from "@/public/icons/clock.svg";
+import Dress from "@/public/icons/dress.svg";
 
 const AboutPage = () => {
   return (
@@ -64,6 +67,55 @@ const AboutPage = () => {
             <div>
               <Marquee />
             </div>
+          </div>
+        </div>
+        <div className="bg-secondary rounded-md grid md:grid-cols-2 grid-cols-1 gap-x-8">
+          <div className="md:p-8 p-4">
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <h1 className="text-xl font-bold">Lokasi</h1>
+                <p className="text-base font-semibold">
+                  Jl. Prof. Soedarto, Tembalang, Kec. Tembalang, Kota Semarang,
+                  Jawa Tengah 50275
+                </p>
+              </div>
+              <div className="space-y-4">
+                <div className="flex gap-x-4 items-center">
+                  <div>
+                    <Location />
+                  </div>
+                  <span>Gedung Teknik Komputer Universitas Diponegoro</span>
+                </div>
+                <div className="flex gap-x-4 items-center">
+                  <div>
+                    <Clock />
+                  </div>
+                  <span>07.00 WIB</span>
+                </div>
+                <div className="flex gap-x-4 items-center">
+                  <div>
+                    <Dress />
+                  </div>
+                  <span>Menyesuaikan</span>
+                </div>
+              </div>
+              <div className="space-y-2">
+                <span className="text-md font-bold">Note :</span>
+                <p>
+                  Tidak untuk umum, hanya untuk keluarga Teknik Komputer
+                  Universitas Diponegoro
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="md:p-0 p-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.6425265812795!2d110.43760927531852!3d-7.051224192951046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708d3d9c55e8cb%3A0x67f23b9ef2c77c35!2sDepartment%20of%20Computer%20Engineering%2C%20Diponegoro%20University!5e0!3m2!1sen!2sid!4v1721785410958!5m2!1sen!2sid"
+              class="w-full md:h-full h-80 border-0 md:rounded-tr-md md:rounded-br-md rounded-md"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
