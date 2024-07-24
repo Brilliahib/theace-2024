@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "/public/images/logo.png";
+import Tiktok from "@/public/icons/tiktok.svg";
+import Instagram from "@/public/icons/instagram.svg";
 
 const Footer = () => {
   return (
@@ -29,6 +31,9 @@ const Footer = () => {
               <Link href="/">
                 <p>Home</p>
               </Link>
+              <Link href="/about">
+                <p>About</p>
+              </Link>
               <Link href="/contact">
                 <p>Contact</p>
               </Link>
@@ -36,38 +41,39 @@ const Footer = () => {
           </div>
           <div className="text-white">
             <div className="mb-4">
-              <h1 className="text-primary font-bold text-md">Event</h1>
+              <h1 className="text-primary font-bold text-md">Competition</h1>
             </div>
             <div className="flex flex-col space-y-2">
-              <Link href="/about">
-                <p>The Ace</p>
+              <Link href="/lomba/ui-ux">
+                <p>UI/UX Design</p>
               </Link>
-              <Link href="/lomba">
-                <p>Lomba</p>
+              <Link href="/lomba/capture-the-flag">
+                <p>Capture The Flag</p>
               </Link>
-              <Link href="/seminar">
-                <p>Seminar</p>
+              <Link href="/lomba/essay">
+                <p>Essay</p>
               </Link>
             </div>
           </div>
           <div>
             <div className="mb-4">
-              <h1 className="text-primary font-bold text-md">Location</h1>
+              <h1 className="text-primary font-bold text-md">Social Media</h1>
             </div>
-            <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7919.2724300868185!2d110.43288020627327!3d-7.051962499999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708c02787187c9%3A0x29bcf60b2c20aec!2sDiponegoro%20University!5e0!3m2!1sen!2sid!4v1720497604853!5m2!1sen!2sid"
-                class="w-full h-64 border-0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+            <div className="flex flex-col space-y-2">
+              <div className="flex gap-x-2">
+                <div>
+                  <Tiktok />
+                </div>
+                <div>
+                  <Instagram />
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center text-white">
           <div>
-            <p className="font-semibold">The ACE, All Rights Reserved @ 2024</p>
+            <p>@ 2024 The Ace. All Rights Reserved </p>
           </div>
         </div>
       </div>

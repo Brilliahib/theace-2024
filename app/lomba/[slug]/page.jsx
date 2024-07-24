@@ -27,7 +27,7 @@ const LombaDetail = () => {
     <>
       <div className="md:min-h-[350px] min-h-[200px] bg-secondary pad-x flex items-center">
         <div className="space-y-4 md:text-left text-center md:mt-12">
-          <h1 className="md:text-4xl text-2xl font-bold uppercase">
+          <h1 className="md:text-4xl text-2xl font-semibold uppercase font-boomBox2">
             {lomba.title}
           </h1>
           <p className="md:text-lg text-sm font-bold text-primary">
@@ -78,7 +78,9 @@ const LombaDetail = () => {
             </Card>
             <div className="p-8 w-full bg-primary text-secondary rounded-md space-y-6">
               <div className="flex gap-x-4 items-center">
-                <Trophy />
+                <div>
+                  <Trophy />
+                </div>
                 <h1 className="text-lg font-bold">
                   Uang Penghargaan + Sertifikat
                 </h1>
