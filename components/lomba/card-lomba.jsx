@@ -21,7 +21,7 @@ const CardLombaHomePage = () => {
         <>
             <div className="flex md:flex-row flex-col gap-8 justify-center items-center mt-8">
                 {caption.map((item, index) => (
-                    <div key={index} className="bg-[#371A6C] md:w-1/4 w-1/2 p-6 rounded-md space-y-4">
+                    <div key={index} className="bg-[#371A6C] md:w-1/4 w-5/6 p-6 rounded-md space-y-4">
                         <div className="flex justify-between">
                             <h1 className='font-bold'>
                                 {item.title}

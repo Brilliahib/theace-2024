@@ -14,7 +14,6 @@ export default function Home() {
         className="md:h-screen min-h-[85vh] flex flex-col space-y-8 justify-start sm:justify-center items-start bg-cover bg-center pad-x"
         style={{
           backgroundImage: `url(${bgLanding.src})`,
-
         }}
       >
         <div
