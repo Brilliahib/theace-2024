@@ -1,3 +1,11 @@
+/* font BoomBox2 */
+@font-face {
+  font-family: "BoomBox2";
+  src: url("/fonts/BoomBox2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
