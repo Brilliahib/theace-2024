@@ -22,10 +22,9 @@ function Navbar() {
         <div>
           <Link href="/contact">
             <Button
-              className="flex flex-row gap-2 rounded-md font-bold text-primary"
               variant="outline"
+              className="border p-5 flex font-semibold text-primary bg-[#241246] rounded-full"
             >
-              <Phone size={20} className="text-primary" />
               Contact
             </Button>
           </Link>
