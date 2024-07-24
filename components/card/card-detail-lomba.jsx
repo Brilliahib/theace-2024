@@ -26,51 +26,17 @@ const CardDetailLomba = () => {
   }
   return (
     <>
-      <Card className="bg-[#182159] md:p-6 p-0 text-white w-full border-t-4 border-b-8 border-r-8 border-l-8">
-        <CardHeader>
-          <span className="text-muted-foreground">Bidang Lomba</span>
-        </CardHeader>
-        <CardContent>
-          <div className="md:flex gap-x-8">
-            <div className="space-y-8">
-              <h1
-                className={`md:text-6xl text-4xl font-bold ${orbitron.className}`}
-              >
-                {lomba.title}
-              </h1>
-              <p className="text-[#DCE2F1]">
-                Kembangkan kreativitas dan keterampilan desainmu! Buatlah
-                antarmuka pengguna yang menarik dan mudah digunakan untuk
-                menunjukkan kepiawaianmu dalam dunia desain. Jangan sampai
-                ketinggalan kesempatan emas ini! Segera daftarkan dirimu dan
-                buktikan bahwa kamu adalah yang terbaik di bidangmu!
-              </p>
-              <div className="space-y-4">
-                <Countdown targetDate={lomba.targetDate} />
-                <p className="font-semibold">
-                  {formatDateToWIB(lomba.targetDate)}
-                </p>
-              </div>
-              <div className="flex gap-x-4">
-                <Button className="w-[200px] text-[#0E1333] font-bold text-md">
-                  Daftar
-                </Button>
-                <Button
-                  variant="outline"
-                  className="w-[200px] text-primary font-bold text-md flex gap-x-2"
-                >
-                  {" "}
-                  <Book />
-                  Guidebook
-                </Button>
-              </div>
-            </div>
-            <div>
-              <div className="bg-[#0E1333] md:w-[400px] md:h-[400px] rounded-xl"></div>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
+      <div className="md:min-h-[50vh] bg-[#371a6c] pad-x flex items-center">
+        <div className="space-y-4">
+          <h1 className="text-3xl font-bold">{lomba.title}</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+            ipsa, quaerat doloribus, aliquid officiis illo ipsam, dolorum
+            repellat explicabo accusantium voluptas mollitia. Facilis reiciendis
+            error officiis, provident velit tempore quas?
+          </p>
+        </div>
+      </div>
     </>
   );
 };

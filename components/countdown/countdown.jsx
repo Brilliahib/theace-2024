@@ -59,13 +59,6 @@ const Countdown = ({ targetDate }) => {
           <p className="md:text-xl text-base">{timeLeft.minutes}</p>
         </div>
       </div>
-      <div className="text-xl font-bold mt-6">:</div>
-      <div className="flex flex-col justify-center items-center space-y-2">
-        <h1 className="text-base font-bold">Seconds</h1>
-        <div className="border-t-2 border-l-2 border-4 border-primary p-4 rounded-xl font-bold w-full flex justify-center">
-          <p className="md:text-xl text-base">{timeLeft.seconds}</p>
-        </div>
-      </div>
     </div>
   );
 };
