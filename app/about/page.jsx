@@ -12,13 +12,13 @@ const AboutPage = () => {
     <section className="overflow-hidden">
       <div className="pad-x md:min-h-[350px] min-h-[200px] bg-secondary flex items-center">
         <div className="md:mt-12">
-          <div className="space-y-4 md:text-left text-center">
-            <h1 className="md:text-4xl text-2xl font-bold uppercase">
+          <div className="space-y-4 md:text-left text-center md:max-w-xl">
+            <h1 className="md:text-4xl text-2xl font-bold uppercase font-boomBox2">
               About Us
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-              deleniti.
+              Yuk, kenalan dengan The Ace dan pelajari lebih lanjut tentang misi
+              dan nilai-nilai yang mendasari setiap langkah kami!
             </p>
           </div>
         </div>
@@ -36,10 +36,12 @@ const AboutPage = () => {
             <div className="space-y-4">
               <h1 className="md:text-4xl text-2xl font-bold">The Ace</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                amet hic nobis quam cumque qui, illum incidunt officia,
-                similique saepe vel repudiandae minus deleniti aut porro nam rem
-                iure explicabo!
+                The Ace 2024 adalah pengalaman yang dirancang untuk
+                mempertemukan berbagai kelompok individu yang memiliki semangat
+                yang sama terhadap inovasi, kreativitas, dan komunitas.
+                Harapannya dapat menjadi terobosan baru yang akan muncul dari
+                tahun - tahun sebelumnya dengan, menawarkan platform unik untuk
+                berjejaring, belajar, dan berkembang.
               </p>
             </div>
             <div className="space-y-4">

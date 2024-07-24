@@ -34,7 +34,7 @@ const NavMobile = () => {
                 <p className="text-xs">Competition</p>
               </div>
             </PopoverTrigger>
-            <PopoverContent className="shadow-xl w-60 py-6 rounded-xl bg-transparent backdrop-blur-lg border-0">
+            <PopoverContent className="shadow-xl w-60 py-6 rounded-xl bg-secondary/50  backdrop-blur border-0">
               <div className="space-y-5 text-center">
                 <div>
                   <Link

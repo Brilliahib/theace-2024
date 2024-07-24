@@ -6,20 +6,23 @@ const ContactPage = () => {
       {/* Contact Section */}
       <div className="md:min-h-[350px] min-h-[200px] bg-secondary pad-x flex items-center">
         <div className="space-y-4 md:text-left text-center md:mt-12">
-          <h1 className="md:text-4xl text-2xl font-bold uppercase">
+          <h1 className="md:text-4xl text-2xl font-bold uppercase font-boomBox2">
             CONTACT
           </h1>
           <p className="text-base mt-4">
-            Tanyakan atau sampaikan pesan Anda kepada kami melalui halaman ini. Kami siap membantu!
+            Tanyakan atau sampaikan pesan Anda kepada kami melalui halaman ini.
+            Kami siap membantu!
           </p>
         </div>
       </div>
-      
+
       {/* Content Sections */}
       <div className="flex flex-col items-center justify-center px-4 sm:px-8 lg:px-16 mt-16">
         {/* UI/UX Design Section */}
         <div className="text-center font-bold mb-4 text-white">Narahubung</div>
-        <div className="text-center font-bold text-2xl text-yellow-500 mb-4">UI/UX Design</div>
+        <div className="text-center font-bold text-2xl text-primary mb-4">
+          UI/UX Design
+        </div>
         <div className="flex justify-center flex-wrap gap-8 pad-x mb-16">
           <ContactCard
             role="UI/UX Design"
@@ -35,7 +38,9 @@ const ContactPage = () => {
 
         {/* Essay Section */}
         <div className="text-center font-bold mb-4 text-white">Narahubung</div>
-        <div className="text-center font-bold text-2xl text-yellow-500 mb-4">Essay</div>
+        <div className="text-center font-bold text-2xl text-primary mb-4">
+          Essay
+        </div>
         <div className="flex justify-center flex-wrap gap-8 pad-x mb-16">
           <ContactCard
             role="Essay"
@@ -55,8 +60,10 @@ const ContactPage = () => {
         </div>
 
         {/* Capture The Flag Section */}
-        <div className="text-center font-bold mb-4 text-yellow-500">Narahubung</div>
-        <div className="text-center font-bold text-2xl text-yellow-500 mb-4">Capture The Flag</div>
+        <div className="text-center font-bold mb-4">Narahubung</div>
+        <div className="text-center font-bold text-2xl text-primary mb-4">
+          Capture The Flag
+        </div>
         <div className="flex justify-center flex-wrap gap-8 pad-x">
           <ContactCard
             role="Capture The Flag"
