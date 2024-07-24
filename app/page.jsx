@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <div
-        className="md:h-screen min-h-[85vh] flex flex-col space-y-8 justify-start sm:justify-center items-center md:items-start bg-cover bg-center pad-x"
+        className="md:h-screen min-h-[120vh] flex flex-col space-y-8 justify-start sm:justify-center items-center md:items-start bg-cover bg-center pad-x"
         style={{
           backgroundImage: `url(${backgroundImage})`,
         }}

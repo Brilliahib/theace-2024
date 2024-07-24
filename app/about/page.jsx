@@ -61,7 +61,7 @@ const AboutPage = () => {
           <div className="text-center space-y-4">
             <div className="mb-12 space-y-4">
               <h1 className="md:text-3xl text-2xl font-bold">Dokumentasi</h1>
-              <p>
+              <p className="md:inline-block hidden">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Accusantium, quis.
               </p>

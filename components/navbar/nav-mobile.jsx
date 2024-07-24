@@ -31,7 +31,7 @@ const NavMobile = () => {
                 }`}
               >
                 <Trophy />
-                <p className="text-xs">Competition</p>
+                <p className="text-xs">Events</p>
               </div>
             </PopoverTrigger>
             <PopoverContent className="shadow-xl w-60 py-6 rounded-xl bg-secondary/50  backdrop-blur border-0">
@@ -60,18 +60,26 @@ const NavMobile = () => {
                     Essay Competition
                   </Link>
                 </div>
+                <div>
+                  <Link
+                    href={"/seminar"}
+                    className="font-semibold text-primary hover:bg-secondary p-4 rounded-full"
+                  >
+                    Seminar
+                  </Link>
+                </div>
               </div>
             </PopoverContent>
           </Popover>
           <Link
-            href="/seminar"
+            href="/about"
             className={`${
-              pathname === "/seminar" ? "text-primary" : "text-neutral-400 "
+              pathname === "/about" ? "text-primary" : "text-neutral-400 "
             }`}
           >
             <div className="flex flex-col justify-center items-center gap-y-1.5 text-sm">
               <Users />
-              <p className="text-xs">Seminar</p>
+              <p className="text-xs">About</p>
             </div>
           </Link>
         </div>
