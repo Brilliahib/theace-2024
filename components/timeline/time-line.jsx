@@ -8,12 +8,12 @@ const TimeLine = ({ timeline }) => {
         {timeline.map((item, index) => (
           <div
             key={index}
-            className={`shrink-0 md:min-w-[300px] min-w-[150px] flex justify-center bg-secondary p-8 rounded-md shadow-md ${
+            className={`shrink-0 md:min-w-[300px] min-w-[150px] flex justify-center bg-secondary p-8 rounded-3xl shadow-md ${
               index % 2 === 0 ? "mt-40" : "mb-40"
             }`}
           >
             <div className="space-y-2">
-              <p className="text-lg font-semibold">{item.title}</p>
+              <p className="text-lg font-bold">{item.title}</p>
               <p className="text-sm text-white text-center">{item.date}</p>
             </div>
           </div>

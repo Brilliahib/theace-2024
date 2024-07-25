@@ -28,7 +28,7 @@ const CardLombaHomePage = () => {
             className="bg-[#371A6C] md:w-1/4 w-5/6 p-6 rounded-md space-y-4"
           >
             <div className="flex justify-between">
-              <h1 className="font-bold">{item.title}</h1>
+              <h1 className="font-bold md:text-xl text-lg">{item.title}</h1>
               <SquareArrowOutUpRight
                 color="#FFE038"
                 className="hover:cursor-pointer"
