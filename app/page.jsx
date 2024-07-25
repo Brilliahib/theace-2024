@@ -7,6 +7,7 @@ import { ArrowRight } from "lucide-react";
 import bgLanding from "/public/images/the-ace-landing.png";
 import bgMobile from "/public/images/bg-mobile.png";
 import AboutCompetition from "@/components/competition/about-competition";
+import Alur from "@/components/alur/alur";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -56,6 +57,8 @@ export default function Home() {
       </div>
       <LombaPage />
       <AboutCompetition />
+      {/* belom responsif sih alur.. maap buru2 */}
+      <Alur />
     </>
   );
 }
