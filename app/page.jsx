@@ -55,10 +55,12 @@ export default function Home() {
           </Button>
         </div>
       </div>
-      <LombaPage />
-      <AboutCompetition />
-      {/* belom responsif sih alur.. maap buru2 */}
-      <Alur />
+      <div className="space-y-16">
+        <LombaPage />
+        <AboutCompetition />
+        {/* belom responsif sih alur.. maap buru2 */}
+        <Alur />
+      </div>
     </>
   );
 }
