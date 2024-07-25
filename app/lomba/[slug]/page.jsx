@@ -1,4 +1,5 @@
 "use client";
+import React, { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import CheckIcons from "@/public/icons/checklist.svg";
 import Trophy from "@/public/icons/trophy.svg";
@@ -13,6 +14,7 @@ import {
 import { formatDateToWIB } from "@/lib/formatDate/format-date";
 import Countdown from "@/components/countdown/countdown";
 import { Button } from "@/components/ui/button";
+import TimeLine from "@/components/timeline/time-line";
 
 const LombaDetail = () => {
   const params = useParams();
@@ -20,9 +22,16 @@ const LombaDetail = () => {
 
   const lomba = detailLomba.find((item) => item.slug === slug);
 
+  const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
+
   if (!lomba) {
     return <div>Competition not found</div>;
   }
+
+  const toggleDescription = () => {
+    setIsDescriptionExpanded(!isDescriptionExpanded);
+  };
+
   return (
     <>
       <div className="md:min-h-[350px] min-h-[200px] bg-secondary pad-x flex items-center">
@@ -42,7 +51,20 @@ const LombaDetail = () => {
               <CardContent>
                 <div className="space-y-4">
                   <h1 className="text-2xl font-bold">Description</h1>
-                  <p className="text-justify">{lomba.description}</p>
+                  <p className="md:block hidden text-justify">
+                    {lomba.description}
+                  </p>
+                  <p className="text-justify md:hidden block">
+                    {isDescriptionExpanded
+                      ? lomba.description
+                      : `${lomba.description.substring(0, 100)}...`}
+                  </p>
+                  <button
+                    onClick={toggleDescription}
+                    className="text-primary underline md:hidden"
+                  >
+                    {isDescriptionExpanded ? "Read Less" : "Read More"}
+                  </button>
                 </div>
               </CardContent>
             </Card>
@@ -134,7 +156,7 @@ const LombaDetail = () => {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2" className="border-0">
-                <AccordionTrigger className="p-4 rounded-md bg-secondary  text-white font-bold">
+                <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
                   Gelombang 2
                 </AccordionTrigger>
                 <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
@@ -148,7 +170,7 @@ const LombaDetail = () => {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" className="border-0">
-                <AccordionTrigger className="p-4 rounded-md bg-secondary  text-white font-bold">
+                <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
                   Gelombang 3
                 </AccordionTrigger>
                 <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
@@ -164,6 +186,13 @@ const LombaDetail = () => {
             </Accordion>
           </div>
         </div>
+      </div>
+      <div className="pad-x py-12 md:space-y-12 space-y-8">
+        <div className="text-center space-y-3">
+          <h1 className="text-3xl font-bold">Timeline</h1>
+          <p>Ikuti perjalanan dan jangan lewatkan setiap pembaruan menarik</p>
+        </div>
+        <TimeLine timeline={lomba.timeline} />
       </div>
     </>
   );
