@@ -41,14 +41,14 @@ function Navbar() {
       <div className="flex flex-row items-center justify-between">
         <div className="flex flex-row items-center">
           <Image src={logo} alt="Logo" width={80} height={80} />
-          <p className="text-white text-xl font-semibold ml-2">The ACE</p>
+          {/* <p className="text-white text-xl font-semibold ml-2">The ACE</p> */}
         </div>
         <NavigationMenuDemo />
         <div>
           <Link href="/contact">
             <Button
               variant="outline"
-              className="border p-5 flex font-semibold text-primary bg-[#241246] rounded-full"
+              className="border p-5 flex font-semibold text-primary bg-[#241246] rounded-full hover:bg-primary hover:text-secondary"
             >
               Contact
             </Button>

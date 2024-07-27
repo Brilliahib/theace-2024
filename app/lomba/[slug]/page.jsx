@@ -71,29 +71,16 @@ const LombaDetail = () => {
             <Card>
               <CardContent>
                 <div className="space-y-4">
-                  <h1 className="text-2xl font-bold">Syarat</h1>
+                  <h1 className="text-2xl font-bold">Syarat dan Ketentuan</h1>
                   <ul className="space-y-4">
-                    <li className="flex gap-x-4 items-center">
-                      <div>
-                        <CheckIcons />
-                      </div>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Sapiente, asperiores.
-                    </li>
-                    <li className="flex gap-x-4 items-center">
-                      <div>
-                        <CheckIcons />
-                      </div>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Sapiente, asperiores.
-                    </li>
-                    <li className="flex gap-x-4 items-center">
-                      <div>
-                        <CheckIcons />
-                      </div>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Sapiente, asperiores.
-                    </li>
+                    {lomba.syarat.map((syarat, index) => (
+                      <li key={index} className="flex gap-x-4 items-center">
+                        <div>
+                          <CheckIcons />
+                        </div>
+                        {syarat.list}
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </CardContent>

@@ -3,23 +3,23 @@ import React from "react";
 const AboutCompetition = () => {
   return (
     <>
-      <div className="bg-[#371A6C] pad-x py-12">
-        <div className="md:p-12 p-6 space-y-6">
-          <h1 className="font-bold text-xl md:text-3xl">
+      <div className="bg-[#371A6C] pad-x py-16">
+        <div className="md:space-y-8 space-y-6">
+          <h1 className="font-bold text-2xl md:text-3xl">
             About The Competition
           </h1>
-          <div className="flex md:flex-row flex-col gap-8 text-justify md:text-base text-sm">
+          <div className="flex grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-4 text-justify md:text-base text-sm">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vero
-              recusandae quaerat reiciendis iste rerum rem architecto inventore
-              et iusto non ea in labore optio officiis, pariatur maiores nostrum
-              quod.
+              The ACE adalah kegiatan yang diselenggarakan oleh Himpunan
+              Mahasiswa Teknik Komputer untuk memperingati hari ulang tahun
+              Program Studi Teknik Komputer, Fakultas Teknik, Univeritas
+              Diponegoro.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vero
-              recusandae quaerat reiciendis iste rerum rem architecto inventore
-              et iusto non ea in labore optio officiis, pariatur maiores nostrum
-              quod.
+              Pada tahun ini, The Ace memiliki beberapa rangkaian kegiatan, di
+              antaranya Lomba Capture The Flag (CTF), Lomba Essay, dan Lomba
+              UI/UX Design. Perlombaan ini merupakan perlombaan tingkat nasional
+              yang diperuntukkan bagi pelajar SMA/SMK/sederajat se-Indonesia.
             </p>
           </div>
         </div>
