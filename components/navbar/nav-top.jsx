@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import logo from "/public/images/logo.png";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 const NavTop = () => {
   const pathname = usePathname();
@@ -30,12 +31,14 @@ const NavTop = () => {
             <Image src={logo} alt="Logo" width={80} height={80} />
           </div>
           <div>
-            <Button
-              variant="outline"
-              className={`${getBackgroundContact()} border p-5 flex text-primary rounded-full`}
-            >
-              Contact
-            </Button>
+            <Link href="/contact">
+              <Button
+                variant="outline"
+                className="border p-5 flex font-semibold text-primary bg-[#241246] rounded-full hover:bg-primary hover:text-secondary"
+              >
+                Contact
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

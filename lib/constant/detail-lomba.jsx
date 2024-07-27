@@ -19,6 +19,20 @@ const detailLomba = [
       { title: "Pelaksanaan Final", date: "28 September 2024" },
       { title: "Pengumuman Pemenang", date: "29 September 2024" },
     ],
+    syarat: [
+      {
+        list: "Peserta wajib mengikuti dan menyelesaikan seluruh alur mekanisme pendaftaran yang telah ditentukan.",
+      },
+      {
+        list: "Peserta merupakan siswa aktif SMA/SMK/sederajat atau mahasiswa aktif S1/D4/D3/sederajat tanpa terbatas jurusan/program studi.",
+      },
+      {
+        list: "Peserta adalah tim yang terdiri dari minimal 1 (satu) orang dan maksimal 3 (tiga) orang dalam setiap timnya.",
+      },
+      {
+        list: "Panitia berhak mendiskualifikasi peserta yang terbukti melanggar kode etik atau tata tertib The ACE dan CTF saat kompetisi berlangsung.",
+      },
+    ],
   },
   {
     slug: "capture-the-flag",
@@ -39,6 +53,20 @@ const detailLomba = [
       { title: "Technical Meeting Final", date: "23 September 2024" },
       { title: "Final dan Pengumuman Pemenang", date: "29 September 2024" },
     ],
+    syarat: [
+      {
+        list: "Peserta wajib mengikuti dan menyelesaikan seluruh alur mekanisme pendaftaran yang telah ditentukan.",
+      },
+      {
+        list: "Peserta merupakan siswa aktif SMA/SMK/sederajat atau mahasiswa aktif S1/D4/D3/sederajat tanpa terbatas jurusan/program studi.",
+      },
+      {
+        list: "Peserta adalah tim yang terdiri dari minimal 1 (satu) orang dan maksimal 3 (tiga) orang dalam setiap timnya.",
+      },
+      {
+        list: "Panitia berhak mendiskualifikasi peserta yang terbukti melanggar kode etik atau tata tertib The ACE dan CTF saat kompetisi berlangsung.",
+      },
+    ],
   },
   {
     slug: "essay",
@@ -57,6 +85,20 @@ const detailLomba = [
       { title: "Technical Meeting Finalis", date: "25 September 2024" },
       { title: "Presentasi Finalis", date: "28 September 2024" },
       { title: "Pengumuman Pemenang", date: "29 September 2024" },
+    ],
+    syarat: [
+      {
+        list: "Peserta wajib mengikuti dan menyelesaikan seluruh alur mekanisme pendaftaran yang telah ditentukan.",
+      },
+      {
+        list: "Peserta merupakan tim dengan beranggotakan 2-3 orang dari fakultas/jurusan yang sama atau berbeda namun masih dalam perguruan tinggi/sekolah yang sama",
+      },
+      {
+        list: "Peserta boleh mendaftarkan karyanya lebih dari satu namun hanya bisa menjadi ketua di salah satu tim.",
+      },
+      {
+        list: "Karya esai yang dikirimkan merupakan karya asli yang belum pernah dipublikasikan dimanapun.",
+      },
     ],
   },
 ];
