@@ -6,6 +6,7 @@ import Instagram from "@/public/icons/instagram.svg";
 import Location from "@/public/icons/location.svg";
 import Clock from "@/public/icons/clock.svg";
 import Dress from "@/public/icons/dress.svg";
+import Link from "next/link";
 
 const AboutPage = () => {
   return (
@@ -47,12 +48,16 @@ const AboutPage = () => {
             <div className="space-y-4">
               <h1 className="text-base">Our Social Media</h1>
               <div className="flex gap-x-4">
-                <div>
-                  <Tiktok />
-                </div>
-                <div>
-                  <Instagram />
-                </div>
+                <Link href="/">
+                  <div>
+                    <Tiktok />
+                  </div>
+                </Link>
+                <Link href="https://www.instagram.com/theace.2024/">
+                  <div>
+                    <Instagram />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
