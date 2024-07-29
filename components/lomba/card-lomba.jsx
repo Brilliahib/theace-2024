@@ -30,7 +30,7 @@ const CardLombaHomePage = () => {
           <Link
             href={item.href}
             key={index}
-            className="bg-[#371A6C] p-8 rounded-md space-y-4"
+            className="bg-[#371A6C] p-8 rounded-md space-y-4 hover:border-primary border-2 border-transparent"
           >
             <div className="flex justify-between">
               <h1 className="font-bold md:text-xl text-lg hover:underline">

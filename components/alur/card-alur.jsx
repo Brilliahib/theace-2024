@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import { Button } from "../ui/button";
+import { Card } from "../ui/card";
 
 const CardAlur = () => {
   const caption = [
@@ -27,30 +28,30 @@ const CardAlur = () => {
       step: "Step 3",
       title: "Pengumuman Pemenang",
       information:
-        "Nantikan pengumuman pemenang  sesuai jenis lomba yang diikuti. Agar tidak ketinggalan informasi mengenai siapa yang menang, pastikan untuk memantau sosial media The Ace.",
+        "Nantikan pengumuman pemenang sesuai jenis lomba yang diikuti. Agar tidak ketinggalan informasi mengenai siapa yang menang, pastikan untuk memantau sosial media The Ace.",
     },
   ];
   return (
-    <>
-      <div className="flex grid md:grid-cols-3 grid-cols-1 gap-8 pad-x">
+    <div className="overflow-x-auto pad-x no-scrollbar md:mr-0 mr-4">
+      <div className="flex md:gap-8 gap-6">
         {caption.map((item, index) => (
-          <div
+          <Card
             key={index}
-            className="bg-[#371A6C] p-8 rounded-md flex flex-col space-y-4"
+            className="bg-[#371A6C] md:p-8 p-6 rounded-md flex flex-col space-y-4 min-w-[300px] max-w-[400px]"
           >
             <div>
               <h1>{item.step}</h1>
-              <h1 className="text-primary">{item.time}</h1>
+              {item.time && <h1 className="text-primary">{item.time}</h1>}
             </div>
             <div className="flex justify-between">
               <h1 className="font-bold md:text-3xl text-xl">{item.title}</h1>
             </div>
             <p>{item.information}</p>
-            <div>{item.button}</div>
-          </div>
+            {item.button && <div>{item.button}</div>}
+          </Card>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

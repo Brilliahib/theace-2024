@@ -97,4 +97,7 @@
   .pad-x {
     @apply px-4 md:px-[6%] lg:px-[8%];
   }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
 }
