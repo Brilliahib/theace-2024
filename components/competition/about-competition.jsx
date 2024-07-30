@@ -8,7 +8,7 @@ const AboutCompetition = () => {
           <h1 className="font-bold text-2xl md:text-3xl">
             About The Competition
           </h1>
-          <div className="flex grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-4 text-justify md:text-base text-sm">
+          <div className="flex grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-4 md:text-base text-sm">
             <p>
               The ACE adalah kegiatan yang diselenggarakan oleh Himpunan
               Mahasiswa Teknik Komputer untuk memperingati hari ulang tahun

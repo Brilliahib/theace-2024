@@ -17,7 +17,7 @@ const Footer = () => {
                 height={80}
                 alt="The Ace 2024"
               ></Image>
-              <p className="text-[#DCE2F1] max-w-xs">
+              <p className="text-[#DCE2F1] max-w-xs md:text-base text-sm">
                 Jl. Prof. Soedarto, Tembalang, Kec. Tembalang, Kota Semarang,
                 Jawa Tengah 50275
               </p>
@@ -27,14 +27,20 @@ const Footer = () => {
             <div className="mb-4">
               <h1 className="text-primary font-bold text-md">Menu</h1>
             </div>
-            <div className="flex flex-col space-y-2">
-              <Link href="/">
+            <div className="flex flex-col space-y-2 md:text-base text-sm">
+              <Link href="/" className="hover:underline hover:text-primary">
                 <p>Home</p>
               </Link>
-              <Link href="/about">
+              <Link
+                href="/about"
+                className="hover:underline hover:text-primary"
+              >
                 <p>About</p>
               </Link>
-              <Link href="/contact">
+              <Link
+                href="/contact"
+                className="hover:underline hover:text-primary"
+              >
                 <p>Contact</p>
               </Link>
             </div>
@@ -43,14 +49,23 @@ const Footer = () => {
             <div className="mb-4">
               <h1 className="text-primary font-bold text-md">Competition</h1>
             </div>
-            <div className="flex flex-col space-y-2">
-              <Link href="/lomba/ui-ux">
+            <div className="flex flex-col space-y-2 md:text-base text-sm ">
+              <Link
+                href="/lomba/ui-ux"
+                className="hover:underline hover:text-primary"
+              >
                 <p>UI/UX Design</p>
               </Link>
-              <Link href="/lomba/capture-the-flag">
+              <Link
+                href="/lomba/capture-the-flag"
+                className="hover:underline hover:text-primary"
+              >
                 <p>Capture The Flag</p>
               </Link>
-              <Link href="/lomba/essay">
+              <Link
+                href="/lomba/essay"
+                className="hover:underline hover:text-primary"
+              >
                 <p>Essay</p>
               </Link>
             </div>
