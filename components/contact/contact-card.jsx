@@ -1,12 +1,12 @@
 import React from "react";
 import { Card } from "../ui/card";
 
-export default function ContactCard({ name, phone }) {
+export default function ContactCard({ name, phone, image }) {
   return (
-    <Card className="bg-[#371A6C] min-w-[350px] text-white w-full sm:w-80 shadow-lg p-4 relative cursor-pointer hover:border-primary border-2 border-transparent">
+    <Card className="bg-[#371A6C] text-white w-full sm:w-80 shadow-lg p-4 relative cursor-pointer hover:border-primary border-2 border-transparent">
       <div className="flex items-start justify-between">
         <div className="flex items-center">
-          <div className="bg-gray-400 w-16 h-16 rounded-full"></div>
+          <img src={image} alt={name} className="w-16 h-16 rounded-full" />
           <div className="ml-4 flex flex-col justify-start">
             <p className="font-bold">{name}</p>
             <p className="mt-1 text-primary">{phone}</p>
