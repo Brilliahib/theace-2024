@@ -4,14 +4,15 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 
 export function FAQ() {
   return (
     <div className="pad-x text-white py-24">
-      <div className="text-center space-y-4 mb-12">
-        <h1 className="text-3xl font-bold">FAQ</h1>
-        <p>
+      <div className="text-center md:space-y-4 space-y-2 mb-12">
+        <h1 className="md:text-3xl text-xl font-bold">FAQ</h1>
+        <p className="md:text-base text-sm">
           Jika ada pertanyaan lain bisa{" "}
           <Link href="/contact" className="text-primary hover:underline">
             hubungi kami

@@ -50,11 +50,11 @@ const LombaDetail = () => {
             <Card>
               <CardContent>
                 <div className="space-y-4">
-                  <h1 className="text-2xl font-bold">Description</h1>
-                  <p className="md:block hidden text-justify">
+                  <h1 className="md:text-2xl font-bold text-xl">Description</h1>
+                  <p className="md:block hidden text-justify md:text-base text-sm">
                     {lomba.description}
                   </p>
-                  <p className="text-justify md:hidden block">
+                  <p className="text-justify md:hidden block md:text-base text-sm">
                     {isDescriptionExpanded
                       ? lomba.description
                       : `${lomba.description.substring(0, 100)}...`}
@@ -71,10 +71,15 @@ const LombaDetail = () => {
             <Card>
               <CardContent>
                 <div className="space-y-4">
-                  <h1 className="text-2xl font-bold">Syarat dan Ketentuan</h1>
+                  <h1 className="md:text-2xl font-bold text-xl">
+                    Syarat dan Ketentuan
+                  </h1>
                   <ul className="space-y-4">
                     {lomba.syarat.map((syarat, index) => (
-                      <li key={index} className="flex gap-x-4 items-center">
+                      <li
+                        key={index}
+                        className="flex gap-x-4 md:items-center md:text-base text-sm leading-relaxed"
+                      >
                         <div>
                           <CheckIcons />
                         </div>

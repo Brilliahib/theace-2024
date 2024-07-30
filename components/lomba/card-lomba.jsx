@@ -33,7 +33,7 @@ const CardLombaHomePage = () => {
             className="bg-[#371A6C] p-8 rounded-md space-y-4 hover:border-primary border-2 border-transparent"
           >
             <div className="flex justify-between">
-              <h1 className="font-bold md:text-xl text-lg hover:underline">
+              <h1 className="font-bold text-xl hover:underline">
                 {item.title}
               </h1>
               <SquareArrowOutUpRight
@@ -41,7 +41,7 @@ const CardLombaHomePage = () => {
                 className="hover:cursor-pointer"
               />
             </div>
-            <p>{item.information}</p>
+            <p className="md:text-base text-sm">{item.information}</p>
           </Link>
         ))}
       </div>

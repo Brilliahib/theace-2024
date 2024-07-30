@@ -2,8 +2,7 @@ const detailLomba = [
   {
     slug: "ui-ux",
     title: "UI/UX Design",
-    description:
-      "UI/UX Design adalah perlombaan tingkat nasional yang diadakan oleh program studi Teknik Komputer Universitas Diponegoro. Dengan tema “Safe Cyberspace : Eliminate the threats, to build safer future”, lomba bertujuan untuk mendorong kreativitas dan menginspirasi solusi desain cerdas dan futuristik. Harapannya peserta dapat menghadirkan ide-ide revolusioner yang memanfaatkan AI untuk menciptakan pengalaman pengguna yang luar biasa dan bermanfaat.",
+    description: `UI/UX Design adalah perlombaan tingkat nasional yang diadakan oleh program studi Teknik Komputer Universitas Diponegoro. Dengan tema "Design the Impossible for Future: Innovate UI/UX with Artificial Intelligence (AI)", lomba bertujuan untuk mendorong kreativitas dan menginspirasi solusi desain cerdas dan futuristik. Harapannya peserta dapat menghadirkan ide-ide revolusioner yang memanfaatkan AI untuk menciptakan pengalaman pengguna yang luar biasa dan bermanfaat.`,
     theme:
       "Design the Impossible for Future: Innovate UI/UX with Artificial Intelligence (AI)",
     price: "70.000",
@@ -73,8 +72,8 @@ const detailLomba = [
     title: "Essay",
     description:
       "Lomba essay ini adalah kompetisi tingkat nasional yang diadakan oleh program studi Teknik Komputer Universitas Diponegoro. Dengan tema “The Role of IoT in Achieving Sustainable Development Goals”, lomba ini bertujuan untuk mengeksplorasi solusi inovatif dan dampak positif IoT terhadap keberlanjutan global. Harapannya peserta dapat menyajikan tulisan yang mendalam, inspiratif, dan memberikan wawasan baru tentang bagaimana teknologi dapat mendukung pencapaian tujuan berkelanjutan.",
-    theme: "The Role of IoT in Achieving Sustainable Development Goals",
     price: "45.000",
+    theme: "The Role of IoT in Achieving Sustainable Development Goals",
     targetDate: "2024-08-10T23:59:59",
     timeline: [
       { title: "Pendaftaran Gelombang 1", date: "01 - 10 Agustus 2024" },
