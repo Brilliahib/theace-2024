@@ -15,6 +15,8 @@ import { formatDateToWIB } from "@/lib/formatDate/format-date";
 import Countdown from "@/components/countdown/countdown";
 import { Button } from "@/components/ui/button";
 import TimeLine from "@/components/timeline/time-line";
+import Link from "next/link";
+import FAQ from "@/components/faq/faq";
 
 const LombaDetail = () => {
   const params = useParams();
@@ -95,13 +97,13 @@ const LombaDetail = () => {
                 <div>
                   <Trophy />
                 </div>
-                <h1 className="text-lg font-bold">
+                <h1 className="md:text-lg text-base font-bold">
                   Uang Penghargaan + Sertifikat
                 </h1>
               </div>
               <div>
-                <span className="text-md font-bold">Note :</span>
-                <p className="font-medium">
+                <span className="md:text-base text-sm font-bold">Note :</span>
+                <p className="md:text-base text-sm font-medium">
                   Hadiah akan diumumkan ketika Technical Meeting berlangsung
                 </p>
               </div>
@@ -134,15 +136,19 @@ const LombaDetail = () => {
                       </p>
                     </div>
                     <div className="space-y-4 flex flex-col justify-center">
-                      <Button className="w-full font-bold text-base">
-                        Daftar Sekarang
-                      </Button>
-                      <Button
-                        className="w-full font-bold text-base bg-secondary text-primary hover:bg-primary hover:text-secondary"
-                        variant="outline"
-                      >
-                        Guidebook
-                      </Button>
+                      <Link href={lomba.form}>
+                        <Button className="w-full font-bold text-base">
+                          Daftar Sekarang
+                        </Button>
+                      </Link>
+                      <Link href={lomba.guidebook}>
+                        <Button
+                          className="w-full font-bold text-base bg-secondary text-primary hover:bg-primary hover:text-secondary"
+                          variant="outline"
+                        >
+                          Guidebook
+                        </Button>
+                      </Link>
                     </div>
                   </div>
                 </AccordionContent>
@@ -168,7 +174,7 @@ const LombaDetail = () => {
                 <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
                   <div className="space-y-4">
                     <div>
-                      <h1 className="text-lg font-bold text-primary text-center">
+                      <h1 className="md:text-lg font-bold text-primary text-center">
                         Coming Soon
                       </h1>
                     </div>
@@ -179,12 +185,17 @@ const LombaDetail = () => {
           </div>
         </div>
       </div>
-      <div className="pad-x py-12 md:space-y-12 space-y-8">
+      <div className="pad-x md:py-12 py-8 md:space-y-12 space-y-8">
         <div className="text-center space-y-3">
-          <h1 className="text-3xl font-bold">Timeline</h1>
-          <p>Ikuti perjalanan dan jangan lewatkan setiap pembaruan menarik</p>
+          <h1 className="md:text-3xl text-xl font-bold">Timeline</h1>
+          <p className="md:text-base text-sm">
+            Ikuti perjalanan dan jangan lewatkan setiap pembaruan menarik
+          </p>
         </div>
         <TimeLine timeline={lomba.timeline} />
+      </div>
+      <div className="md:py-12">
+        <FAQ faqData={lomba.faq} />
       </div>
     </>
   );

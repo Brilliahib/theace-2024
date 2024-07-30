@@ -29,7 +29,6 @@ export default function RootLayout({ children }) {
         <NavTop />
         <NavMobile />
         {children}
-        <FAQ />
         <Footer />
       </body>
     </html>

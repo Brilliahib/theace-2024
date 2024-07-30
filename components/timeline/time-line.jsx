@@ -13,7 +13,7 @@ const TimeLine = ({ timeline }) => {
             }`}
           >
             <div className="space-y-2">
-              <p className="text-lg font-bold">{item.title}</p>
+              <p className="md:text-lg text-sm font-bold">{item.title}</p>
               <p className="text-sm text-white text-center">{item.date}</p>
             </div>
           </div>
