@@ -34,7 +34,7 @@ const ContactPage = () => (
     </div>
 
     {/* Content Sections */}
-    <div className="flex flex-col items-center justify-center px-4 sm:px-8 lg:px-16 mt-16 md:mb-24 mb-12">
+    <div className="flex flex-col pad-x items-center justify-center px-4 sm:px-8 lg:px-16 mt-16 md:mb-24 mb-12">
       {/* UI/UX Design Section */}
       <div className="mb-8">
         <p className="text-center font-bold md:mb-4 mb-2 text-white">
