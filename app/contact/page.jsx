@@ -3,18 +3,42 @@ import ContactCard from "@/components/contact/contact-card";
 
 const contacts = {
   "UI/UX Design": [
-    { name: "Mutiara Sabrina R.", phone: "+62 85803228042", image: "/images/Mutiara.jpg" },
+    {
+      name: "Mutiara Sabrina R.",
+      phone: "+62 85803228042",
+      image: "/images/Mutiara.jpg",
+    },
     { name: "Edi Wicoro", phone: "+62 82325720215", image: "/images/Edi.jpg" },
   ],
   Essay: [
-    { name: "Wahyu Ramadhani", phone: "+62 82241992151", image: "/images/Wahyu.jpg" },
-    { name: "Daffa Ananda", phone: "+62 81946767250", image: "/images/Daffa.jpg" },
-    { name: "Syada Saleha", phone: "+62 82352460763", image: "/images/Syada.jpg" },
+    {
+      name: "Wahyu Ramadhani",
+      phone: "+62 82241992151",
+      image: "/images/Wahyu.jpg",
+    },
+    {
+      name: "Daffa Ananda",
+      phone: "+62 81946767250",
+      image: "/images/Daffa.jpg",
+    },
+    {
+      name: "Syada Saleha",
+      phone: "+62 82352460763",
+      image: "/images/Syada.jpg",
+    },
   ],
   "Capture The Flag": [
-    { name: "Anastasya", phone: "+62 83822629004", image: "/images/Anastasya.jpg" },
+    {
+      name: "Anastasya",
+      phone: "+62 83822629004",
+      image: "/images/Anastasya.jpg",
+    },
     { name: "Tian Putra", phone: "+62 8976666609", image: "/images/Tian.jpg" },
-    { name: "Shulhan Aziz", phone: "+62 83111147273", image: "/images/Shulhan.jpg" },
+    {
+      name: "Shulhan Aziz",
+      phone: "+62 83111147273",
+      image: "/images/Shulhan.jpg",
+    },
   ],
 };
 
@@ -33,11 +57,11 @@ const ContactPage = () => (
     </div>
 
     <div className="flex flex-col pad-x items-center justify-center px-4 sm:px-8 lg:px-16 mt-16 md:mb-24 mb-12">
-      <div className="mb-8">
-        <p className="text-center font-bold md:mb-4 mb-2 text-white">
+      <div className="md:mb-8 mb-4">
+        <p className="md:text-base text-sm text-center font-bold md:mb-4 mb-2 text-white">
           Narahubung
         </p>
-        <p className="text-center font-bold md:text-2xl text-xl text-primary mb-4">
+        <p className="text-center font-bold md:text-2xl text-lg text-primary mb-4">
           UI/UX Design
         </p>
       </div>
@@ -57,11 +81,11 @@ const ContactPage = () => (
         ))}
       </div>
 
-      <div className="mb-8">
-        <p className="text-center font-bold  md:mb-4 mb-2 text-white">
+      <div className="md:mb-8 mb-4">
+        <p className="md:text-base text-sm text-center font-bold  md:mb-4 mb-2 text-white">
           Narahubung
         </p>
-        <p className="text-center font-bold md:text-2xl text-xl text-primary mb-4">
+        <p className="text-center font-bold md:text-2xl text-lg text-primary mb-4">
           Essay
         </p>
       </div>
@@ -81,11 +105,11 @@ const ContactPage = () => (
         ))}
       </div>
 
-      <div className="mb-8">
-        <p className="text-center font-bold  md:mb-4 mb-2 text-white">
+      <div className="md:mb-8 mb-4">
+        <p className="md:text-base text-sm text-center font-bold  md:mb-4 mb-2 text-white">
           Narahubung
         </p>
-        <p className="text-center font-bold md:text-2xl text-xl text-primary mb-4">
+        <p className="text-center font-bold md:text-2xl text-lg text-primary mb-4">
           Capture The Flag
         </p>
       </div>
