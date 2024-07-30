@@ -97,8 +97,8 @@ const detailLomba = [
         list: "Panitia berhak mendiskualifikasi peserta yang terbukti melanggar kode etik atau tata tertib The ACE dan CTF saat kompetisi berlangsung.",
       },
     ],
-    form: "",
-    guidebook: "",
+    form: "https://bit.ly/JoinCTFTheACE2024",
+    guidebook: "https://bit.ly/GuidebookCTFTheACE2024",
     faq: [
       {
         question: "Siapa saja yang dapat berpartisipasi dalam lomba CTF?",
