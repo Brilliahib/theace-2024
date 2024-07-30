@@ -3,7 +3,7 @@ import { Card } from "../ui/card";
 
 export default function ContactCard({ name, phone }) {
   return (
-    <Card className="bg-[#371A6C] min-w-[400px] text-white w-full sm:w-80 shadow-lg p-4 relative cursor-pointer hover:border-primary border-2 border-transparent">
+    <Card className="bg-[#371A6C] min-w-[350px] text-white w-full sm:w-80 shadow-lg p-4 relative cursor-pointer hover:border-primary border-2 border-transparent">
       <div className="flex items-start justify-between">
         <div className="flex items-center">
           <div className="bg-gray-400 w-16 h-16 rounded-full"></div>
