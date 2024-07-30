@@ -29,14 +29,14 @@ function Navbar() {
   // kalo di slash lain jadi ga berlaku si scroll-scroll ini
   const getBackgroundColor = () => {
     if (pathname === "/") {
-      return isScrolled ? "bg-[#241246]" : "bg-transparent";
+      return isScrolled ? "bg-[#241246]/80" : "bg-transparent";
     }
-    return "bg-[#241246]";
+    return "bg-[#241246]/80";
   };
 
   return (
     <nav
-      className={`${getBackgroundColor()} pad-x py-3 fixed top-0 left-0 right-0 z-10 md:inline hidden transition-colors duration-300`}
+      className={`${getBackgroundColor()} pad-x py-3 backdrop-blur fixed top-0 left-0 right-0 z-10 md:inline hidden transition-colors duration-300`}
     >
       <div className="flex flex-row items-center justify-between">
         <div className="flex flex-row items-center">

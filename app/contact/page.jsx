@@ -1,21 +1,21 @@
-import Link from 'next/link';
+import Link from "next/link";
 import ContactCard from "@/components/contact/contact-card";
 
 const contacts = {
   "UI/UX Design": [
     { name: "Mutiara Sabrina R.", phone: "+62 85803228042" },
-    { name: "Edi Wicoro", phone: "+62 82325720215" }
+    { name: "Edi Wicoro", phone: "+62 82325720215" },
   ],
-  "Essay": [
+  Essay: [
     { name: "Wahyu Ramadhani", phone: "+62 82241992151" },
     { name: "Daffa Ananda", phone: "+62 81946767250" },
-    { name: "Syada Saleha", phone: "+62 82352460763" }
+    { name: "Syada Saleha", phone: "+62 82352460763" },
   ],
   "Capture The Flag": [
     { name: "Anastasya", phone: "+62 83822629004" },
     { name: "Tian Putra", phone: "+62 8976666609" },
-    { name: "Shulhan Aziz", phone: "+62 83111147273" }
-  ]
+    { name: "Shulhan Aziz", phone: "+62 83111147273" },
+  ],
 };
 
 const ContactPage = () => (
@@ -26,7 +26,7 @@ const ContactPage = () => (
         <h1 className="md:text-4xl text-2xl font-normal uppercase font-boomBox2">
           CONTACT
         </h1>
-        <p className="text-base mt-4">
+        <p className="md:text-base text-sm mt-4">
           Tanyakan atau sampaikan pesan Anda kepada kami melalui halaman ini.
           Kami siap membantu!
         </p>
@@ -34,15 +34,22 @@ const ContactPage = () => (
     </div>
 
     {/* Content Sections */}
-    <div className="flex flex-col items-center justify-center px-4 sm:px-8 lg:px-16 mt-16">
+    <div className="flex flex-col items-center justify-center px-4 sm:px-8 lg:px-16 mt-16 md:mb-24 mb-12">
       {/* UI/UX Design Section */}
-      <div className="text-center font-bold mb-4 text-white">Narahubung</div>
-      <div className="text-center font-bold text-2xl text-primary mb-4">
-        UI/UX Design
+      <div className="mb-8">
+        <p className="text-center font-bold md:mb-4 mb-2 text-white">
+          Narahubung
+        </p>
+        <p className="text-center font-bold md:text-2xl text-xl text-primary mb-4">
+          UI/UX Design
+        </p>
       </div>
       <div className="flex justify-center flex-wrap gap-8 pad-x mb-16">
-        {contacts["UI/UX Design"].map(contact => (
-          <Link href={`https://wa.me/${contact.phone.replace(/\D/g, '')}`} key={contact.phone}>
+        {contacts["UI/UX Design"].map((contact) => (
+          <Link
+            href={`https://wa.me/${contact.phone.replace(/\D/g, "")}`}
+            key={contact.phone}
+          >
             <ContactCard
               role="UI/UX Design"
               name={contact.name}
@@ -53,13 +60,20 @@ const ContactPage = () => (
       </div>
 
       {/* Essay Section */}
-      <div className="text-center font-bold mb-4 text-white">Narahubung</div>
-      <div className="text-center font-bold text-2xl text-primary mb-4">
-        Essay
+      <div className="mb-8">
+        <p className="text-center font-bold  md:mb-4 mb-2 text-white">
+          Narahubung
+        </p>
+        <p className="text-center font-bold md:text-2xl text-xl text-primary mb-4">
+          Essay
+        </p>
       </div>
       <div className="flex justify-center flex-wrap gap-8 pad-x mb-16">
-        {contacts["Essay"].map(contact => (
-          <Link href={`https://wa.me/${contact.phone.replace(/\D/g, '')}`} key={contact.phone}>
+        {contacts["Essay"].map((contact) => (
+          <Link
+            href={`https://wa.me/${contact.phone.replace(/\D/g, "")}`}
+            key={contact.phone}
+          >
             <ContactCard
               role="Essay"
               name={contact.name}
@@ -70,13 +84,20 @@ const ContactPage = () => (
       </div>
 
       {/* Capture The Flag Section */}
-      <div className="text-center font-bold mb-4">Narahubung</div>
-      <div className="text-center font-bold text-2xl text-primary mb-4">
-        Capture The Flag
+      <div className="mb-8">
+        <p className="text-center font-bold  md:mb-4 mb-2 text-white">
+          Narahubung
+        </p>
+        <p className="text-center font-bold md:text-2xl text-xl text-primary mb-4">
+          Capture The Flag
+        </p>
       </div>
       <div className="flex justify-center flex-wrap gap-8 pad-x">
-        {contacts["Capture The Flag"].map(contact => (
-          <Link href={`https://wa.me/${contact.phone.replace(/\D/g, '')}`} key={contact.phone}>
+        {contacts["Capture The Flag"].map((contact) => (
+          <Link
+            href={`https://wa.me/${contact.phone.replace(/\D/g, "")}`}
+            key={contact.phone}
+          >
             <ContactCard
               role="Capture The Flag"
               name={contact.name}
