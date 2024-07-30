@@ -2,7 +2,7 @@ const { Card, CardContent } = require("../ui/card");
 
 const SeminarSection = () => {
   return (
-    <section className="pad-x">
+    <section className="pad-x py-16 pb-24">
       <Card className="md:py-8 py-6">
         <CardContent>
           <div className="text-center md:space-y-8 space-y-4">

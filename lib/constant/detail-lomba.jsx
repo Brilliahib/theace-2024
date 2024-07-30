@@ -32,6 +32,37 @@ const detailLomba = [
         list: "Panitia berhak mendiskualifikasi peserta yang terbukti melanggar kode etik atau tata tertib The ACE dan CTF saat kompetisi berlangsung.",
       },
     ],
+    form: "",
+    guidebook: "",
+    faq: [
+      {
+        question:
+          "Siapa saja yang dapat berpartisipasi dalam lomba UI/UX Design?",
+        answer:
+          "Peserta yang dapat berpatisipasi adalah pelajar aktif SMA/SMK/sederajat atau mahasiswa aktif S1/D4/D3/sederajat tanpa terbatas jurusan/program studi.",
+      },
+      {
+        question: "Lomba UI/UX Design diadakan secara offline atau online?",
+        answer:
+          "Lomba UI/UX Design akan diadakan secara online untuk babak penyisihan dan secara offline untuk babak final.",
+      },
+      {
+        question: "Dimana kita bisa mendapatkan info lomba yang lebih lengkap?",
+        answer:
+          "Teman-teman dapat membuka guidebook yang berada di bawah daftar pada masing-masing lomba.",
+      },
+      {
+        question: "Apakah peserta wajib mengupload twibbon?",
+        answer:
+          "Iya, teman-teman wajib mengupload twibbon dan memfollow akun sosial media The Ace 2024 di @theace.2024",
+      },
+      {
+        question:
+          "Dimana kita bisa mendapatkan info-info mengenai The Ace 2024?",
+        answer:
+          "Teman-teman bisa pantengin terus akun media sosial The Ace 2024 di @theace.2024",
+      },
+    ],
   },
   {
     slug: "capture-the-flag",
@@ -66,6 +97,36 @@ const detailLomba = [
         list: "Panitia berhak mendiskualifikasi peserta yang terbukti melanggar kode etik atau tata tertib The ACE dan CTF saat kompetisi berlangsung.",
       },
     ],
+    form: "",
+    guidebook: "",
+    faq: [
+      {
+        question: "Siapa saja yang dapat berpartisipasi dalam lomba CTF?",
+        answer:
+          "Peserta yang dapat berpatisipasi adalah pelajar aktif SMA/SMK/sederajat atau mahasiswa aktif S1/D4/D3/sederajat tanpa terbatas jurusan/program studi.",
+      },
+      {
+        question: "Lomba CTF diadakan secara offline atau online?",
+        answer:
+          "Lomba CTF akan diadakan secara online untuk babak penyisihan dan secara offline untuk babak final.",
+      },
+      {
+        question: "Dimana kita bisa mendapatkan info lomba yang lebih lengkap?",
+        answer:
+          "Teman-teman dapat membuka guidebook yang berada di bawah daftar pada masing-masing lomba.",
+      },
+      {
+        question: "Apakah peserta wajib mengupload twibbon?",
+        answer:
+          "Iya, teman-teman wajib mengupload twibbon dan memfollow akun sosial media The Ace 2024 di @theace.2024",
+      },
+      {
+        question:
+          "Dimana kita bisa mendapatkan info-info mengenai The Ace 2024?",
+        answer:
+          "Teman-teman bisa pantengin terus akun media sosial The Ace 2024 di @theace.2024",
+      },
+    ],
   },
   {
     slug: "essay",
@@ -97,6 +158,36 @@ const detailLomba = [
       },
       {
         list: "Karya esai yang dikirimkan merupakan karya asli yang belum pernah dipublikasikan dimanapun.",
+      },
+    ],
+    form: "https://bit.ly/PendaftaranEssayCompetitionTheACE2024",
+    guidebook: "https://bit.ly/GuidebookEssayCompetitionTheACE2024",
+    faq: [
+      {
+        question: "Siapa saja yang dapat berpartisipasi dalam lomba Essay?",
+        answer:
+          "Peserta yang dapat berpatisipasi adalah pelajar aktif SMA/SMK/sederajat atau mahasiswa aktif S1/D4/D3/sederajat tanpa terbatas jurusan/program studi.",
+      },
+      {
+        question: "Lomba Essay diadakan secara offline atau online?",
+        answer:
+          "Secara keseluruhan lomba Essay akan diselenggarakan secara online.",
+      },
+      {
+        question: "Dimana kita bisa mendapatkan info lomba yang lebih lengkap?",
+        answer:
+          "Teman-teman dapat membuka guidebook yang berada di bawah daftar pada masing-masing lomba.",
+      },
+      {
+        question: "Apakah peserta wajib mengupload twibbon?",
+        answer:
+          "Iya, teman-teman wajib mengupload twibbon dan memfollow akun sosial media The Ace 2024 di @theace.2024",
+      },
+      {
+        question:
+          "Dimana kita bisa mendapatkan info-info mengenai The Ace 2024?",
+        answer:
+          "Teman-teman bisa pantengin terus akun media sosial The Ace 2024 di @theace.2024",
       },
     ],
   },

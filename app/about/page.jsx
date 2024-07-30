@@ -7,6 +7,7 @@ import Location from "@/public/icons/location.svg";
 import Clock from "@/public/icons/clock.svg";
 import Dress from "@/public/icons/dress.svg";
 import Link from "next/link";
+import { MalamPuncakSection } from "@/components/carousel/carousel-malpun";
 
 const AboutPage = () => {
   return (
@@ -17,14 +18,14 @@ const AboutPage = () => {
             <h1 className="md:text-4xl text-2xl font-bold uppercase font-boomBox2">
               About Us
             </h1>
-            <p>
+            <p className="md:text-base text-sm">
               Yuk, kenalan dengan The Ace dan pelajari lebih lanjut tentang misi
               dan nilai-nilai yang mendasari setiap langkah kami!
             </p>
           </div>
         </div>
       </div>
-      <div className="pad-x py-24 md:space-y-48 space-y-24">
+      <div className="pad-x py-24 md:space-y-36 space-y-24">
         <div className="flex grid md:grid-cols-2 grid-cols-1 gap-4 space-y-8 md:space-y-0 items-center">
           <div className="flex justify-center md:justify-start">
             <Image
@@ -35,8 +36,8 @@ const AboutPage = () => {
           </div>
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="md:text-4xl text-2xl font-bold">The Ace</h1>
-              <p>
+              <h1 className="md:text-4xl text-xl font-bold">The Ace</h1>
+              <p className="md:text-base text-sm leading-relaxed">
                 The Ace 2024 adalah pengalaman yang dirancang untuk
                 mempertemukan berbagai kelompok individu yang memiliki semangat
                 yang sama terhadap inovasi, kreativitas, dan komunitas.
@@ -65,14 +66,14 @@ const AboutPage = () => {
         <div className="flex justify-center">
           <div className="text-center space-y-4">
             <div className="mb-12 space-y-4">
-              <h1 className="md:text-3xl text-2xl font-bold">Dokumentasi</h1>
-              <p className="md:inline-block hidden">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Accusantium, quis.
+              <h1 className="md:text-3xl text-2xl font-bold">Malam Puncak</h1>
+              <p className="md:text-base text-sm">
+                Nantikan acara mewah ini dan rayakan malam puncak The Ace
+                bersama kami!
               </p>
             </div>
             <div>
-              <Marquee />
+              <MalamPuncakSection />
             </div>
           </div>
         </div>
@@ -81,12 +82,12 @@ const AboutPage = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-xl font-bold">Lokasi</h1>
-                <p className="text-base font-semibold">
+                <p className="md:text-base text-sm font-semibold">
                   Jl. Prof. Soedarto, Tembalang, Kec. Tembalang, Kota Semarang,
                   Jawa Tengah 50275
                 </p>
               </div>
-              <div className="space-y-4">
+              <div className="space-y-4 md:text-base text-sm">
                 <div className="flex gap-x-4 items-center">
                   <div>
                     <Location />
@@ -106,7 +107,7 @@ const AboutPage = () => {
                   <span>Menyesuaikan</span>
                 </div>
               </div>
-              <div className="space-y-2">
+              <div className="space-y-2 md:text-base text-sm">
                 <span className="text-md font-bold">Note :</span>
                 <p>
                   Tidak untuk umum, hanya untuk keluarga Teknik Komputer
