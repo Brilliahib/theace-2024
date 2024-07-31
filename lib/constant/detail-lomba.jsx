@@ -44,7 +44,7 @@ const detailLomba = [
       {
         question: "Lomba UI/UX Design diadakan secara offline atau online?",
         answer:
-          "Lomba UI/UX Design akan diadakan secara online untuk babak penyisihan dan secara offline untuk babak final.",
+          "Secara keseluruhan lomba UI/UX akan diselenggarakan secara online.",
       },
       {
         question: "Dimana kita bisa mendapatkan info lomba yang lebih lengkap?",
