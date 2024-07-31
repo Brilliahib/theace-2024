@@ -29,7 +29,7 @@ const contacts = {
   ],
   "Capture The Flag": [
     {
-      name: "Anastasya",
+      name: "Annastasha",
       phone: "+62 83822629004",
       image: "/images/Anastasya.jpg",
     },

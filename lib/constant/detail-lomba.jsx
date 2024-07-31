@@ -32,8 +32,9 @@ const detailLomba = [
         list: "Panitia berhak mendiskualifikasi peserta yang terbukti melanggar kode etik atau tata tertib The ACE dan CTF saat kompetisi berlangsung.",
       },
     ],
-    form: "",
-    guidebook: "",
+    form: "https://forms.gle/P6ghHhVYHwDEQmri8",
+    guidebook:
+      "https://drive.google.com/file/d/1cnnVO5kf3GUlsJcFHZLCMhzdFqlxYI0V/view?usp=drive_link",
     faq: [
       {
         question:
@@ -98,7 +99,8 @@ const detailLomba = [
       },
     ],
     form: "https://bit.ly/JoinCTFTheACE2024",
-    guidebook: "https://bit.ly/GuidebookCTFTheACE2024",
+    guidebook:
+      "https://drive.google.com/file/d/1Be39guTIoWAIwqePjCmQi63FoYhnqHkG/view?usp=drive_link",
     faq: [
       {
         question: "Siapa saja yang dapat berpartisipasi dalam lomba CTF?",
