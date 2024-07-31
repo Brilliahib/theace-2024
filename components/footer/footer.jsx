@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col space-y-2">
               <div className="flex gap-x-2">
-                <Link href="/">
+                <Link href="https://www.tiktok.com/@theace.2024">
                   <div>
                     <Tiktok />
                   </div>
