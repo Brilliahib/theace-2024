@@ -32,9 +32,8 @@ const detailLomba = [
         list: "Karya yang diusulkan merupakan karya orisinil peserta dan belum pernah diikutsertakan dalam kompetisi sejenis serta belum pernah dipublikasikan dalam bentuk apapun.",
       },
     ],
-    form: "https://forms.gle/P6ghHhVYHwDEQmri8",
-    guidebook:
-      "https://drive.google.com/file/d/1cnnVO5kf3GUlsJcFHZLCMhzdFqlxYI0V/view?usp=drive_link",
+    form: "https://bit.ly/FormUIUXTheACE2024",
+    guidebook: "https://bit.ly/GuidebookUIUXTheACE2024",
     faq: [
       {
         question:
@@ -99,8 +98,7 @@ const detailLomba = [
       },
     ],
     form: "https://bit.ly/JoinCTFTheACE2024",
-    guidebook:
-      "https://drive.google.com/file/d/1Be39guTIoWAIwqePjCmQi63FoYhnqHkG/view?usp=drive_link",
+    guidebook: "https://bit.ly/PanduanCTFTHEACE2024",
     faq: [
       {
         question: "Siapa saja yang dapat berpartisipasi dalam lomba CTF?",
