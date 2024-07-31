@@ -20,16 +20,16 @@ const detailLomba = [
     ],
     syarat: [
       {
-        list: "Peserta wajib mengikuti dan menyelesaikan seluruh alur mekanisme pendaftaran yang telah ditentukan.",
-      },
-      {
         list: "Peserta merupakan siswa aktif SMA/SMK/sederajat atau mahasiswa aktif S1/D4/D3/sederajat tanpa terbatas jurusan/program studi.",
       },
       {
-        list: "Peserta adalah tim yang terdiri dari minimal 1 (satu) orang dan maksimal 3 (tiga) orang dalam setiap timnya.",
+        list: "Perlombaan bersifat tim dengan minimal anggota 2 orang dan maksimal 3 orang dari institusi atau perguruan tinggi yang sama. Selain itu, diperbolehkan untuk lintas program studi bagi mahasiswa/i perguruan tinggi.",
       },
       {
-        list: "Panitia berhak mendiskualifikasi peserta yang terbukti melanggar kode etik atau tata tertib The ACE dan CTF saat kompetisi berlangsung.",
+        list: "Setiap peserta hanya diperbolehkan mengirimkan satu karya terbaik.",
+      },
+      {
+        list: "Karya yang diusulkan merupakan karya orisinil peserta dan belum pernah diikutsertakan dalam kompetisi sejenis serta belum pernah dipublikasikan dalam bentuk apapun.",
       },
     ],
     form: "https://forms.gle/P6ghHhVYHwDEQmri8",
