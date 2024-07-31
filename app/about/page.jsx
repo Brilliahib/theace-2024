@@ -49,7 +49,7 @@ const AboutPage = () => {
             <div className="space-y-4">
               <h1 className="text-base">Our Social Media</h1>
               <div className="flex gap-x-4">
-                <Link href="/">
+                <Link href="https://www.tiktok.com/@theace.2024">
                   <div>
                     <Tiktok />
                   </div>
