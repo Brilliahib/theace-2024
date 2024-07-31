@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import React from "react";
 import { Button } from "../ui/button";
 import { Card } from "../ui/card";
+import Link from "next/link";
 
 const CardAlur = () => {
   const caption = [
@@ -12,10 +13,12 @@ const CardAlur = () => {
       information:
         "Kunjungi link dibawah dan isi formulir pendaftaran dengan informasi lengkapmu. Pastikan data yang kamu masukkan benar dan valid.",
       button: (
-        <Button className="flex flex-row gap-2 rounded-md font-bold text-black h-12">
-          Daftar Sekarang
-          <ArrowRight color="#000000" />
-        </Button>
+        <Link href={"#lomba"} passHref>
+          <Button className="flex flex-row gap-2 rounded-md font-bold text-black h-12">
+            Daftar Sekarang
+            <ArrowRight color="#000000" />
+          </Button>
+        </Link>
       ),
     },
     {

@@ -9,6 +9,7 @@ import bgMobile from "/public/images/bg-mobile.png";
 import AboutCompetition from "@/components/competition/about-competition";
 import Alur from "@/components/alur/alur";
 import SeminarSection from "@/components/seminar/seminar";
+import Link from "next/link";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -50,10 +51,14 @@ export default function Home() {
             kemampuan dan menunjukkan bakatmu? Inilah saat yang tepat untuk
             berpartisipasi
           </p>
-          <Button className="flex flex-row gap-2 rounded-md font-bold text-black h-12">
-            Daftar Sekarang
-            <ArrowRight color="#000000" />
-          </Button>
+          <div>
+            <Link href={"#lomba"}>
+              <Button className="flex flex-row gap-2 rounded-md font-bold text-black h-12">
+                Daftar Sekarang
+                <ArrowRight color="#000000" />
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="space-y-16">

@@ -112,7 +112,12 @@ const LombaDetail = () => {
         </div>
         <div className="md:w-4/12">
           <div>
-            <Accordion type="single" collapsible className="w-full space-y-4">
+            <Accordion
+              type="single"
+              defaultValue="item-1"
+              collapsible
+              className="w-full space-y-4"
+            >
               <AccordionItem value="item-1" className="border-0">
                 <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
                   Pendaftaran Gelombang 1
