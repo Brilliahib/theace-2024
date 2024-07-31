@@ -23,7 +23,7 @@ const contacts = {
     },
     {
       name: "Syada Saleha",
-      phone: "+62 82352460763",
+      phone: "+62 85325460763",
       image: "/images/Syada.jpg",
     },
   ],
