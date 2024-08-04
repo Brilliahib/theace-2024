@@ -180,7 +180,7 @@ const LombaDetail = () => {
                 <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
                   <div className="space-y-4">
                     <div>
-                      <h1 className="md:text-lg font-bold text-primary text-center">
+                      <h1 className="text-lg font-bold text-primary text-center">
                         Coming Soon
                       </h1>
                     </div>

@@ -12,7 +12,7 @@ const detailLomba = [
       { title: "Pendaftaran Gelombang 2", date: "11 - 20 Agustus 2024" },
       { title: "Pendaftaran Gelombang 3", date: "21 - 31 Agustus 2024" },
       { title: "Technical Meeting", date: "1 September 2024" },
-      { title: "Pelaksanaan Lomba", date: "02  - 21 September 2024" },
+      { title: "Pelaksanaan Lomba", date: "04  - 21 September 2024" },
       { title: "Pengumuman Finalis", date: "22 September 2024" },
       { title: "Technical Meeting", date: "25 September 2024" },
       { title: "Pelaksanaan Final", date: "28 September 2024" },
