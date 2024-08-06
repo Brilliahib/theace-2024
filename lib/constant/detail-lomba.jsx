@@ -33,7 +33,8 @@ const detailLomba = [
       },
     ],
     form: "https://bit.ly/FormUIUXTheACE2024",
-    guidebook: "https://bit.ly/GuidebookUIUXTheACE2024",
+    guidebook:
+      "https://drive.google.com/file/d/1Epo4HtUwjcQ1PioV5mKAfmQMZCp967MA/view",
     faq: [
       {
         question:
@@ -161,7 +162,8 @@ const detailLomba = [
       },
     ],
     form: "https://bit.ly/PendaftaranEssayCompetitionTheACE2024",
-    guidebook: "https://bit.ly/GuidebookEssayCompetitionTheACE2024",
+    guidebook:
+      "https://drive.google.com/file/d/1_c015aNeQxtr42omtND83vuCdRlqeBzt/view",
     faq: [
       {
         question: "Siapa saja yang dapat berpartisipasi dalam lomba Essay?",
