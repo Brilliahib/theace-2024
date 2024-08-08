@@ -26,7 +26,7 @@ const images = [
 const MarqueeMedpart = () => {
   return (
     <TooltipProvider>
-      <div className="group flex gap-x-4 md:overflow-hidden p-2 bg-secondary md:py-12 py-6">
+      <div className="group flex gap-x-4 overflow-hidden p-2 bg-secondary md:py-12 py-10">
         {Array(6)
           .fill(0)
           .map((_, i) => (
