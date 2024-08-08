@@ -7,19 +7,19 @@ const CardLombaHomePage = () => {
     {
       title: "UI/UX Design",
       information:
-        "Desain antarmuka aplikasi mobile yang inovatif dan ramah pengguna dengan tema yang ditentukan. Tingkat pelajar SMA/SMK/Sederajat dan mahasiswa D3/D4/S1 se-Indonesia.",
+        "Desain antarmuka aplikasi mobile yang inovatif dan ramah pengguna dengan tema yang ditentukan.",
       href: "/lomba/ui-ux",
     },
     {
       title: "Essay",
       information:
-        "Karya tulis yang menarik, inovatif dan mendalam tentang isu atau tema yang ditentukan. Tingkat pelajar SMA/SMK/Sederajat dan mahasiswa D3/D4/S1 se-Indonesia.",
+        "Karya tulis yang menarik, inovatif dan mendalam tentang isu atau tema yang ditentukan.",
       href: "/lomba/essay",
     },
     {
       title: "Capture The Flag",
       information:
-        "Tantangan keamanan siber untuk menguji keterampilan hacking dan pemecahan masalah. Tingkat pelajar SMA/SMK/Sederajat dan mahasiswa D3/D4/S1 se-Indonesia.",
+        "Tantangan keamanan siber untuk menguji keterampilan hacking dan pemecahan masalah.",
       href: "/lomba/capture-the-flag",
     },
   ];
