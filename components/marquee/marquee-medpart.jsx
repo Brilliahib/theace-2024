@@ -21,6 +21,10 @@ const images = [
   { src: "/images/Asset 22@4x.png", alt: "Polytechnic Computer Club" },
   { src: "/images/Asset 23@4x.png", alt: "FST UNDIP" },
   { src: "/images/Asset 24@4x.png", alt: "HIMPROTE UNNES" },
+  { src: "/images/Asset 25@4x.png", alt: "infolomba" },
+  { src: "/images/Asset 26@4x.png", alt: "KMK FMIPA Universitas Brawijaya" },
+  { src: "/images/Asset 27@4x.png", alt: "GDSC Universitas Diponegoro" },
+  { src: "/images/Asset 28@4x.jpg", alt: "Infolomba.mhs" },
 ];
 
 const MarqueeMedpart = () => {
@@ -36,14 +40,14 @@ const MarqueeMedpart = () => {
             >
               {images.map((image, index) => (
                 <Tooltip key={index}>
-                  <div className="flex md:min-w-40 min-w-28 flex-col gap-y-3 overflow-hidden rounded-lg">
+                  <div className="flex gap-y-3 overflow-hidden rounded-lg">
                     <TooltipTrigger asChild>
                       <Image
                         src={image.src}
                         width={100}
                         height={100}
-                        className="md:w-[80px] md:h-[80px] w-[60px] h-[60px] grayscale hover:grayscale-0 cursor-pointer"
-                        alt="Media Partner"
+                        className="md:w-full md:mx-8 mx-5 md:h-[80px] w-[60px] h-[60px] grayscale hover:grayscale-0 cursor-pointer"
+                        alt={image.src}
                       />
                     </TooltipTrigger>
                   </div>
