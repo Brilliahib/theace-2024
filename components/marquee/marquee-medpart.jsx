@@ -46,7 +46,7 @@ const MarqueeMedpart = () => {
                         src={image.src}
                         width={100}
                         height={100}
-                        className="md:w-full md:mx-8 mx-5 md:h-[80px] w-[60px] h-[60px] grayscale hover:grayscale-0 cursor-pointer"
+                        className="w-full md:mx-8 mx-5 md:h-[80px] h-[60px] grayscale hover:grayscale-0 cursor-pointer"
                         alt={image.src}
                       />
                     </TooltipTrigger>
