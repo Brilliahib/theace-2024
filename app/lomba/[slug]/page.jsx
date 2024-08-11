@@ -114,13 +114,27 @@ const LombaDetail = () => {
           <div>
             <Accordion
               type="single"
-              defaultValue="item-1"
+              defaultValue="item-2"
               collapsible
               className="w-full space-y-4"
             >
               <AccordionItem value="item-1" className="border-0">
                 <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
                   Pendaftaran Gelombang 1
+                </AccordionTrigger>
+                <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
+                  <div className="space-y-4">
+                    <div>
+                      <h1 className="text-lg font-bold text-red-600 text-center">
+                        Registration is closed
+                      </h1>
+                    </div>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-2" className="border-0">
+                <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
+                  Pendaftaran Gelombang 2
                 </AccordionTrigger>
                 <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
                   <div className="space-y-8">
@@ -155,20 +169,6 @@ const LombaDetail = () => {
                           Guidebook
                         </Button>
                       </Link>
-                    </div>
-                  </div>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-2" className="border-0">
-                <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
-                  Pendaftaran Gelombang 2
-                </AccordionTrigger>
-                <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
-                  <div className="space-y-4">
-                    <div>
-                      <h1 className="text-lg font-bold text-primary text-center">
-                        Coming Soon
-                      </h1>
                     </div>
                   </div>
                 </AccordionContent>
