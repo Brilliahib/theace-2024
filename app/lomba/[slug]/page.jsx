@@ -114,7 +114,7 @@ const LombaDetail = () => {
           <div>
             <Accordion
               type="single"
-              defaultValue="item-2"
+              defaultValue="item-3"
               collapsible
               className="w-full space-y-4"
             >
@@ -135,6 +135,20 @@ const LombaDetail = () => {
               <AccordionItem value="item-2" className="border-0">
                 <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
                   Pendaftaran Gelombang 2
+                </AccordionTrigger>
+                <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
+                  <div className="space-y-4">
+                    <div>
+                      <h1 className="text-lg font-bold text-red-600 text-center">
+                        Registration is closed
+                      </h1>
+                    </div>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-3" className="border-0">
+                <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
+                  Pendaftaran Gelombang 3
                 </AccordionTrigger>
                 <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
                   <div className="space-y-8">
@@ -169,20 +183,6 @@ const LombaDetail = () => {
                           Guidebook
                         </Button>
                       </Link>
-                    </div>
-                  </div>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-3" className="border-0">
-                <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
-                  Pendaftaran Gelombang 3
-                </AccordionTrigger>
-                <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
-                  <div className="space-y-4">
-                    <div>
-                      <h1 className="text-lg font-bold text-primary text-center">
-                        Coming Soon
-                      </h1>
                     </div>
                   </div>
                 </AccordionContent>
