@@ -77,12 +77,15 @@ const detailLomba = [
       { title: "Pendaftaran Gelombang 1", date: "01 - 10 Agustus 2024" },
       { title: "Pendaftaran Gelombang 2", date: "11 - 20 Agustus 2024" },
       { title: "Pendaftaran Gelombang 3", date: "21 - 31 Agustus 2024" },
-      { title: "Technical Meeting", date: "8 September 2024" },
-      { title: "Warm Up", date: "14 September 2024" },
-      { title: "Babak Penyisihan", date: "15 September 2024" },
-      { title: "Pengumuman Finalis", date: "21 September 2024" },
-      { title: "Technical Meeting Final", date: "23 September 2024" },
-      { title: "Final dan Pengumuman Pemenang", date: "29 September 2024" },
+      { title: "Technical Meeting Kualifikasi", date: "3 September 2024" },
+      { title: "Warm Up", date: "6 September 2024" },
+      {
+        title: "Babak Kualifikasi & Pengumpulan Write Up",
+        date: "7 - 8 September 2024",
+      },
+      { title: "Pengumuman Finalis", date: "9 September 2024" },
+      { title: "Technical Meeting Finalis", date: "14 September 2024" },
+      { title: "Babak Final", date: "21 September 2024" },
     ],
     syarat: [
       {
