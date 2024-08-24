@@ -102,7 +102,7 @@ const detailLomba = [
       },
     ],
     form: "https://bit.ly/JoinCTFTheACE2024",
-    guidebook: "https://bit.ly/PanduanCTFTHEACE2024",
+    guidebook: "https://bit.ly/GBCTFACE2024",
     faq: [
       {
         question: "Siapa saja yang dapat berpartisipasi dalam lomba CTF?",
