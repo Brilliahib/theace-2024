@@ -6,11 +6,12 @@ const detailLomba = [
     theme:
       "Design the Impossible for Future: Innovate UI/UX with Artificial Intelligence (AI)",
     price: "100.000",
-    targetDate: "2024-08-31T23:59:59",
+    targetDate: "2024-09-02T23:59:59",
     timeline: [
       { title: "Pendaftaran Gelombang 1", date: "01 - 10 Agustus 2024" },
       { title: "Pendaftaran Gelombang 2", date: "11 - 20 Agustus 2024" },
       { title: "Pendaftaran Gelombang 3", date: "21 - 31 Agustus 2024" },
+      { title: "Pendaftaran Diperpanjang", date: "01 - 02 September 2024" },
       { title: "Technical Meeting", date: "1 September 2024" },
       { title: "Pelaksanaan Lomba", date: "04  - 21 September 2024" },
       { title: "Pengumuman Finalis", date: "22 September 2024" },
@@ -72,11 +73,12 @@ const detailLomba = [
       "Lomba Capture The Flag (CTF) ini merupakan perlombaan tingkat nasional yang diselenggarakan oleh program studi Teknik Komputer Universitas Diponegoro. Lomba ini menguji keterampilan peserta dalam keamanan siber melalui berbagai tantangan hacking dan pemecahan masalah. Dengan tema “Safe Cyberspace: Eliminate the threats, to build safer future”, lomba ini bertujuan mengasah kemampuan peserta dalam mengidentifikasi dan mengatasi ancaman siber. Harapannya peserta dapat menunjukkan keterampilan mereka dalam melindungi ruang siber dan berkontribusi pada upaya menciptakan masa depan yang lebih aman dan terlindungi.",
     theme: "Safe Cyberspace : Eliminate the Threats, to Build Safer Future",
     price: "90.000",
-    targetDate: "2024-08-31T23:59:59",
+    targetDate: "2024-09-02T23:59:59",
     timeline: [
       { title: "Pendaftaran Gelombang 1", date: "01 - 10 Agustus 2024" },
       { title: "Pendaftaran Gelombang 2", date: "11 - 20 Agustus 2024" },
       { title: "Pendaftaran Gelombang 3", date: "21 - 31 Agustus 2024" },
+      { title: "Pendaftaran Diperpanjang", date: "01 - 02 September 2024" },
       { title: "Technical Meeting Kualifikasi", date: "3 September 2024" },
       { title: "Warm Up", date: "6 September 2024" },
       {
@@ -139,7 +141,7 @@ const detailLomba = [
       "Lomba essay ini adalah kompetisi tingkat nasional yang diadakan oleh program studi Teknik Komputer Universitas Diponegoro. Dengan tema “The Role of IoT in Achieving Sustainable Development Goals”, lomba ini bertujuan untuk mengeksplorasi solusi inovatif dan dampak positif IoT terhadap keberlanjutan global. Harapannya peserta dapat menyajikan tulisan yang mendalam, inspiratif, dan memberikan wawasan baru tentang bagaimana teknologi dapat mendukung pencapaian tujuan berkelanjutan.",
     price: "65.000",
     theme: "The Role of IoT in Achieving Sustainable Development Goals",
-    targetDate: "2024-08-31T23:59:59",
+    targetDate: "2024-09-08T23:59:59",
     timeline: [
       { title: "Pendaftaran Gelombang 1", date: "01 - 10 Agustus 2024" },
       { title: "Pendaftaran Gelombang 2", date: "11 - 20 Agustus 2024" },
