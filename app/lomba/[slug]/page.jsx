@@ -114,7 +114,7 @@ const LombaDetail = () => {
           <div>
             <Accordion
               type="single"
-              defaultValue="item-3"
+              defaultValue="item-4"
               collapsible
               className="w-full space-y-4"
             >
@@ -151,6 +151,20 @@ const LombaDetail = () => {
                   Pendaftaran Gelombang 3
                 </AccordionTrigger>
                 <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
+                  <div className="space-y-4">
+                    <div>
+                      <h1 className="text-lg font-bold text-red-600 text-center">
+                        Registration is closed
+                      </h1>
+                    </div>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-4" className="border-0">
+                <AccordionTrigger className="p-4 rounded-md bg-secondary text-white font-bold">
+                  Pendaftaran Diperpanjang
+                </AccordionTrigger>
+                <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
                   <div className="space-y-8">
                     <div className="text-center space-y-2">
                       <h1 className="text-base font-semibold">
@@ -164,7 +178,9 @@ const LombaDetail = () => {
                       <Countdown targetDate={lomba.targetDate} />
                     </div>
                     <div className="text-center space-y-2">
-                      <p className="font-semibold">Pendaftaran sampai</p>
+                      <p className="font-semibold">
+                        Pendaftaran diperpanjang sampai
+                      </p>
                       <p className="font-semibold">
                         {formatDateToWIB(lomba.targetDate)}
                       </p>
