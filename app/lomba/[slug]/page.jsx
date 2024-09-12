@@ -165,40 +165,11 @@ const LombaDetail = () => {
                   Pendaftaran Diperpanjang
                 </AccordionTrigger>
                 <AccordionContent className="p-4 rounded-md bg-secondary mt-4">
-                  <div className="space-y-8">
-                    <div className="text-center space-y-2">
-                      <h1 className="text-base font-semibold">
-                        Biaya Pendaftaran
+                  <div className="space-y-4">
+                    <div>
+                      <h1 className="text-lg font-bold text-red-600 text-center">
+                        Registration is closed
                       </h1>
-                      <h1 className="text-2xl font-bold text-primary">
-                        Rp {lomba.price}
-                      </h1>
-                    </div>
-                    <div className="flex justify-center">
-                      <Countdown targetDate={lomba.targetDate} />
-                    </div>
-                    <div className="text-center space-y-2">
-                      <p className="font-semibold">
-                        Pendaftaran diperpanjang sampai
-                      </p>
-                      <p className="font-semibold">
-                        {formatDateToWIB(lomba.targetDate)}
-                      </p>
-                    </div>
-                    <div className="space-y-4 flex flex-col justify-center">
-                      <Link href={lomba.form}>
-                        <Button className="w-full font-bold text-base">
-                          Daftar Sekarang
-                        </Button>
-                      </Link>
-                      <Link href={lomba.guidebook}>
-                        <Button
-                          className="w-full font-bold text-base bg-secondary text-primary hover:bg-primary hover:text-secondary"
-                          variant="outline"
-                        >
-                          Guidebook
-                        </Button>
-                      </Link>
                     </div>
                   </div>
                 </AccordionContent>
