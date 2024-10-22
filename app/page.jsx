@@ -11,6 +11,7 @@ import Alur from "@/components/alur/alur";
 import SeminarSection from "@/components/seminar/seminar";
 import Link from "next/link";
 import MarqueeMedpart from "@/components/marquee/marquee-medpart";
+import WinnerCompetitionContent from "@/components/winner/WinnerCompetitionContent";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -64,6 +65,7 @@ export default function Home() {
       </div>
       <div className="space-y-16">
         <MarqueeMedpart />
+        <WinnerCompetitionContent />
         <LombaPage />
         <AboutCompetition />
         {/* belom responsif sih alur.. maap buru2 */}
