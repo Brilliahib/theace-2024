@@ -92,19 +92,19 @@ const AboutPage = () => {
                   <div>
                     <Location />
                   </div>
-                  <span>Gedung Teknik Komputer Universitas Diponegoro</span>
+                  <span>Lapangan Voli GKB FT</span>
                 </div>
                 <div className="flex gap-x-4 items-center">
                   <div>
                     <Clock />
                   </div>
-                  <span>28 Oktober 2024, 16.00 WIB</span>
+                  <span>28 Oktober 2024, 15.00 - 21.00 WIB</span>
                 </div>
                 <div className="flex gap-x-4 items-center">
                   <div>
                     <Dress />
                   </div>
-                  <span>Menyesuaikan</span>
+                  <span>Berwarna putih</span>
                 </div>
               </div>
               <div className="space-y-2 md:text-base text-sm">
