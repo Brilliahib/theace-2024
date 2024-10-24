@@ -98,7 +98,7 @@ const AboutPage = () => {
                   <div>
                     <Clock />
                   </div>
-                  <span>28 Oktober 2024, 15.00 - 21.00 WIB</span>
+                  <span>26 Oktober 2024, 15.00 - 21.00 WIB</span>
                 </div>
                 <div className="flex gap-x-4 items-center">
                   <div>
